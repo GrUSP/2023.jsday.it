@@ -27,9 +27,21 @@ He often work on cutting-edge libraries and frameworks offering training, develo
   speaker_twitter_url: "https://twitter.com/biondifabio"
   is_mc: false
 
+speaker_3: &Gift
+  speaker_in_speaker_lists: true
+  speaker_name: "Gift"
+  speaker_pic_filename: Gift.png
+  speaker_role: "Developer Advocate @ Cloudflare"
+  speaker_bio: "Gift is a Developer Advocate at Cloudflare. She has worked in the web development industry for over 5 years building tools and products that help businesses scale. In her previous role, she worked as a front-end developer. She is now working in developer relations.
+Gift loves to share her experience in web development, and career-related topics, with the goal of helping people level up their skills in the industry."
+  speaker_github_url: "https://www.linkedin.com/in/egwuenugift/"
+  speaker_twitter_url: "https://twitter.com/lauragift_"
+  is_mc: false
+
 speakers:
   speaker_1: *SaraGerion
   speaker_2: *FabioBiondi
+  speaker_3: *Gift
 
 tracks:
   track_1: &track_1
@@ -80,25 +92,26 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *SaraGerion
-          speaker_2: *FabioBiondi
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2022-05-19T09:30+02:00
+      #   end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *SaraGerion
+      #     speaker_2: *FabioBiondi
       titolotalk1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: ""
         talk_description: ""
         talk_video_url:
         speakers:
           speaker_1: *SaraGerion
           speaker_2: *FabioBiondi
+          speaker_3: *Gift
