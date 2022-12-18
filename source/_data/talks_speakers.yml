@@ -53,15 +53,20 @@ speaker_5: &JecelynYeen
   speaker_name: "Jecelyn Yeen"
   speaker_pic_filename: Jecelyn_Yeen.png
   speaker_role: "DevRel Engineer - Chrome @ Google"
-  speaker_bio: "Jecelyn Yeen is a DevRel Engineer at Google working on Chrome DevTools and Browser Automation. Her work focuses on the developer tooling ecosystem.
-
-She helps identify and prioritize changes to the platform and works with the engineering team to help build next-generation of tools that developers will use everyday.
-
-Prior to joining Google, she worked 10+ years as a software architect, engineering manager, software engineer in various companies from startups, SME to MNC.
-
-Ironically her favourite pastime away from work involves traveling to remote islands without WiFi for deep sea diving expeditions and reading books with tangible covers."
+  speaker_bio: "Jecelyn Yeen is a DevRel Engineer at Google working on Chrome DevTools and Browser Automation. Her work focuses on the developer tooling ecosystem."
   speaker_github_url: "https://www.linkedin.com/in/jecfish/"
-  speaker_twitter_url: " https://twitter.com/jecfish"
+  speaker_twitter_url: "https://twitter.com/jecfish"
+  is_mc: false
+
+speaker_6: &LucianoMammino
+  speaker_in_speaker_lists: true
+  speaker_name: "Luciano Mammino"
+  speaker_pic_filename: Luciano_Mammino.png
+  speaker_role: "Senior Architect @ fourTheorem"
+  speaker_bio: "Luciano Mammino is a Senior Architect at fourTheorem where he is helping companies to get the best out of the cloud. Luciano is co-author of Node.js Design Patterns and he runs Fullstack Bulletin, a free weekly newsletter for fullstack developers. 
+  Luciano is also an AWS Serverless Hero and a Microsoft Most Valuable Professional (MVP)."
+  speaker_github_url: "https://github.com/lmammino"
+  speaker_twitter_url: "https://twitter.com/loige"
   is_mc: false
 
 speakers:
@@ -70,6 +75,7 @@ speakers:
   speaker_3: *Gift
   speaker_4: *LucaMezzalira
   speaker_5: *JecelynYeen
+  speaker_6: *LucianoMammino
 
 tracks:
   track_1: &track_1
@@ -145,3 +151,4 @@ days:
           speaker_3: *Gift
           speaker_4: *LucaMezzalira
           speaker_5: *JecelynYeen
+          speaker_6: *LucianoMammino
