@@ -69,6 +69,26 @@ speaker_6: &LucianoMammino
   speaker_twitter_url: "https://twitter.com/loige"
   is_mc: false
 
+speaker_7: &JaniEväkallio
+  speaker_in_speaker_lists: true
+  speaker_name: "Jani Eväkallio"
+  speaker_pic_filename: Jani_Evakallio.png
+  speaker_role: "Founding Engineer @ verb.ai"
+  speaker_bio: "A web engineer with a passion for building rich, collaborative, real-time web applications. 
+  Open Source author, comedian, improviser and once an aspiring novelist, these days Jani is building AI-enhanced text editing tools to help others, and himself, write better."
+  speaker_github_url: "https://www.github.com/jevakallio"
+  speaker_twitter_url: "https://twitter.com/jevakallio"
+  is_mc: false
+
+speaker_8: &SaraVieira
+  speaker_in_speaker_lists: true
+  speaker_name: "Sara Vieira"
+  speaker_pic_filename: Sara_Vieira.png
+  speaker_role: "Founding Engineer @ Axo"
+  speaker_bio: ""
+  speaker_github_url: "https://github.com/SaraVieira"
+  speaker_twitter_url: "https://twitter.com/NikkitaFTW"
+
 speakers:
   speaker_1: *SaraGerion
   speaker_2: *FabioBiondi
@@ -76,6 +96,8 @@ speakers:
   speaker_4: *LucaMezzalira
   speaker_5: *JecelynYeen
   speaker_6: *LucianoMammino
+  speaker_7: *JaniEväkallio
+  speaker_8: *SaraVieira
 
 tracks:
   track_1: &track_1
@@ -152,3 +174,6 @@ days:
           speaker_4: *LucaMezzalira
           speaker_5: *JecelynYeen
           speaker_6: *LucianoMammino
+          speaker_7: *JaniEväkallio
+          speaker_8: *SaraVieira
+
