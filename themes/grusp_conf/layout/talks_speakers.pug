@@ -159,6 +159,11 @@ block content
                               .card-image
                                 img(src=filename role="figure" aria-label=speaker.speaker_name alt=speaker.speaker_name)
                             .row__social
+                             
+                              if(speaker.speaker_general_url)
+                                a(role="button" href=speaker.speaker_general_url rel="external noopener noreferrer" aria-label="general profile")
+                                  .social-icon
+                                    include ../source/assets/ico/ico-world.svg
                               if(speaker.speaker_github_url)
                                 a(role="button" href=speaker.speaker_github_url rel="external noopener noreferrer" aria-label="github profile")
                                   .social-icon
@@ -167,6 +172,14 @@ block content
                                 a(role="button" href=speaker.speaker_twitter_url rel="external noopener noreferrer" aria-label="twitter profile")
                                   .social-icon
                                     include ../source/assets/ico/ico-social-twitter.svg
+                              if(speaker.speaker_youtube_url)
+                                a(role="button" href=speaker.speaker_youtube_url rel="external noopener noreferrer" aria-label="youtube profile")
+                                  .social-icon
+                                    include ../source/assets/ico/ico-social-youtube.svg
+                              if(speaker.speaker_linkedin_url)
+                                a(role="button" href=speaker.speaker_linkedin_url rel="external noopener noreferrer" aria-label="linkedin profile")
+                                  .social-icon
+                                    include ../source/assets/ico/ico-social-linkedin.svg
                           .column
                             .columns.speaker-info
                               .column

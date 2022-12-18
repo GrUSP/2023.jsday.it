@@ -4,18 +4,116 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &SaraGerion
+  speaker_in_speaker_lists: true
+  speaker_name: "Sara Gerion"
+  speaker_pic_filename: Sara_Gerion.png
+  speaker_role: "Senior Solutions Architect @ AWS"
+  speaker_bio: "Sara is a senior solutions architect at AWS and maintainer of the library AWS Lambda Powertools for TypeScript. 
+  She has a background in backend engineering and is passionate about scalability, observability, and resilience in the cloud."
+  speaker_linkedin_url: " https://www.linkedin.com/in/sara-gerion/"
+  speaker_twitter_url: "https://twitter.com/Sarutule"
   is_mc: false
 
+speaker_2: &FabioBiondi
+  speaker_in_speaker_lists: true
+  speaker_name: "Fabio Biondi"
+  speaker_pic_filename: Fabio_Biondi.png
+  speaker_role: "Front-End Instructor  Google Developer Expert  Microsoft MVP"
+  speaker_bio: "Fabio is a front-end instructor, speaker, content creator and run several front-end communities.
+He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals. 
+He often work on cutting-edge libraries and frameworks offering training, development, code review and consulting on Angular, React and several other front-end technologies."
+  speaker_general_url: "https://fabiobiodi.dev"
+  speaker_youtube_url: "https://www.youtube.com/c/FabioBiondi"
+  speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
+  speaker_twitter_url: "https://twitter.com/biondifabio"
+  is_mc: false
+
+speaker_3: &Gift
+  speaker_in_speaker_lists: true
+  speaker_name: "Gift"
+  speaker_pic_filename: Gift.png
+  speaker_role: "Developer Advocate @ Cloudflare"
+  speaker_bio: "Gift is a Developer Advocate at Cloudflare. She has worked in the web development industry for over 5 years building tools and products that help businesses scale. In her previous role, she worked as a front-end developer. She is now working in developer relations.
+Gift loves to share her experience in web development, and career-related topics, with the goal of helping people level up their skills in the industry."
+  speaker_linkedin_url: "https://www.linkedin.com/in/egwuenugift/"
+  speaker_twitter_url: "https://twitter.com/lauragift_"
+  is_mc: false
+
+speaker_4: &LucaMezzalira
+  speaker_in_speaker_lists: true
+  speaker_name: "Luca Mezzalira"
+  speaker_pic_filename: Luca_Mezzalira.png
+  speaker_role: "Principal Serverless Specialist Solutions Architect @ AWS"
+  speaker_bio: "Luca Mezzalira is Principal Serverless Specialist Solutions Architect at AWS, an international speaker, and an author. Over the past 18 years, he’s mastered software architectures from frontend to the cloud, providing the right solution for the context of the job at hand."
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucamezzalira"
+  speaker_twitter_url: "https://twitter.com/lucamezzalira"
+  is_mc: false
+
+speaker_5: &JecelynYeen
+  speaker_in_speaker_lists: true
+  speaker_name: "Jecelyn Yeen"
+  speaker_pic_filename: Jecelyn_Yeen.png
+  speaker_role: "DevRel Engineer - Chrome @ Google"
+  speaker_bio: "Jecelyn Yeen is a DevRel Engineer at Google working on Chrome DevTools and Browser Automation. Her work focuses on the developer tooling ecosystem."
+  speaker_linkedin_url: "https://www.linkedin.com/in/jecfish/"
+  speaker_twitter_url: "https://twitter.com/jecfish"
+  is_mc: false
+
+speaker_6: &LucianoMammino
+  speaker_in_speaker_lists: true
+  speaker_name: "Luciano Mammino"
+  speaker_pic_filename: Luciano_Mammino.png
+  speaker_role: "Senior Architect @ fourTheorem"
+  speaker_bio: "Luciano Mammino is a Senior Architect at fourTheorem where he is helping companies to get the best out of the cloud. Luciano is co-author of Node.js Design Patterns and he runs Fullstack Bulletin, a free weekly newsletter for fullstack developers. 
+  Luciano is also an AWS Serverless Hero and a Microsoft Most Valuable Professional (MVP)."
+  speaker_github_url: "https://github.com/lmammino"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucianomammino/"
+  speaker_twitter_url: "https://twitter.com/loige"
+  is_mc: false
+
+speaker_7: &JaniEväkallio
+  speaker_in_speaker_lists: true
+  speaker_name: "Jani Eväkallio"
+  speaker_pic_filename: Jani_Evakallio.png
+  speaker_role: "Founding Engineer @ verb.ai"
+  speaker_bio: "A web engineer with a passion for building rich, collaborative, real-time web applications. 
+  Open Source author, comedian, improviser and once an aspiring novelist, these days Jani is building AI-enhanced text editing tools to help others, and himself, write better."
+  speaker_github_url: "https://www.github.com/jevakallio"
+  speaker_linkedin_url: "https://www.linkedin.com/in/jevakallio"
+  speaker_twitter_url: "https://twitter.com/jevakallio"
+  is_mc: false
+
+speaker_8: &SaraVieira
+  speaker_in_speaker_lists: true
+  speaker_name: "Sara Vieira"
+  speaker_pic_filename: Sara_Vieira.png
+  speaker_role: "Founding Engineer @ Axo"
+  speaker_bio: ""
+  speaker_github_url: "https://github.com/SaraVieira"
+  speaker_general_url: "https://tech.lgbt/@nikkitaFTW"
+  speaker_twitter_url: "https://twitter.com/NikkitaFTW"
+
+speaker_9: &SunilPai
+  speaker_in_speaker_lists: true
+  speaker_name: "Sunil Pai"
+  speaker_pic_filename: Sunil_Pai.png
+  speaker_role: "Chief, Cool Computer Club"
+  speaker_bio: "Sunil runs Cool Computer Club, a product and services company for people building ambitious software. Previously, he built the developer CLI for Cloudflare Workers, worked on the React team in Facebook, built out the Javascript stack at Myntra, and a whole list of other product and infrastructure teams in his career. 
+  He can be found on twitter as @threepointone, or annoying his neighbours in London playing his Les Paul a little too loud."
+  speaker_github_url: "https://github.com/threepointone"
+  speaker_twitter_url: "https://twitter.com/threepointone"
+
 speakers:
-  speaker_1: *speaker
+  speaker_1: *SaraGerion
+  speaker_2: *FabioBiondi
+  speaker_3: *Gift
+  speaker_4: *LucaMezzalira
+  speaker_5: *JecelynYeen
+  speaker_6: *LucianoMammino
+  speaker_7: *JaniEväkallio
+  speaker_8: *SaraVieira
+  speaker_9: *SunilPai
 
 tracks:
   track_1: &track_1
@@ -41,7 +139,7 @@ days:
     date: 2021-07-06T09:45+02:00
     title: "Day 1"
     talks:
-    # service
+      # service
       opening:
         item_type: "service"
         start_datetime: 2021-07-06T09:45+02:00
@@ -66,23 +164,33 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2022-05-19T09:30+02:00
+      #   end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *SaraGerion
+      #     speaker_2: *FabioBiondi
       titolotalk1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: ""
         talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *SaraGerion
+          speaker_2: *FabioBiondi
+          speaker_3: *Gift
+          speaker_4: *LucaMezzalira
+          speaker_5: *JecelynYeen
+          speaker_6: *LucianoMammino
+          speaker_7: *JaniEväkallio
+          speaker_8: *SaraVieira
+          speaker_9: *SunilPai
+
