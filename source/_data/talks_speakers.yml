@@ -89,6 +89,16 @@ speaker_8: &SaraVieira
   speaker_github_url: "https://github.com/SaraVieira"
   speaker_twitter_url: "https://twitter.com/NikkitaFTW"
 
+speaker_9: &SunilPai
+  speaker_in_speaker_lists: true
+  speaker_name: "Sunil Pai"
+  speaker_pic_filename: Sunil_Pai.png
+  speaker_role: "Chief, Cool Computer Club"
+  speaker_bio: "Sunil runs Cool Computer Club, a product and services company for people building ambitious software. Previously, he built the developer CLI for Cloudflare Workers, worked on the React team in Facebook, built out the Javascript stack at Myntra, and a whole list of other product and infrastructure teams in his career. 
+  He can be found on twitter as @threepointone, or annoying his neighbours in London playing his Les Paul a little too loud."
+  speaker_github_url: "https://github.com/threepointone"
+  speaker_twitter_url: "https://twitter.com/threepointone"
+
 speakers:
   speaker_1: *SaraGerion
   speaker_2: *FabioBiondi
@@ -98,6 +108,7 @@ speakers:
   speaker_6: *LucianoMammino
   speaker_7: *JaniEväkallio
   speaker_8: *SaraVieira
+  speaker_9: *SunilPai
 
 tracks:
   track_1: &track_1
@@ -176,4 +187,5 @@ days:
           speaker_6: *LucianoMammino
           speaker_7: *JaniEväkallio
           speaker_8: *SaraVieira
+          speaker_9: *SunilPai
 
