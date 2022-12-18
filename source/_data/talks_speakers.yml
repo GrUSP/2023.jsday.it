@@ -45,7 +45,23 @@ speaker_4: &LucaMezzalira
   speaker_role: "Principal Serverless Specialist Solutions Architect @ AWS"
   speaker_bio: "Luca Mezzalira is Principal Serverless Specialist Solutions Architect at AWS, an international speaker, and an author. Over the past 18 years, he’s mastered software architectures from frontend to the cloud, providing the right solution for the context of the job at hand."
   speaker_github_url: "https://www.linkedin.com/in/lucamezzalira"
-  speaker_twitter_url: " https://twitter.com/lucamezzalira"
+  speaker_twitter_url: "https://twitter.com/lucamezzalira"
+  is_mc: false
+
+speaker_5: &JecelynYeen
+  speaker_in_speaker_lists: true
+  speaker_name: "Jecelyn Yeen"
+  speaker_pic_filename: Jecelyn_Yeen.png
+  speaker_role: "DevRel Engineer - Chrome @ Google"
+  speaker_bio: "Jecelyn Yeen is a DevRel Engineer at Google working on Chrome DevTools and Browser Automation. Her work focuses on the developer tooling ecosystem.
+
+She helps identify and prioritize changes to the platform and works with the engineering team to help build next-generation of tools that developers will use everyday.
+
+Prior to joining Google, she worked 10+ years as a software architect, engineering manager, software engineer in various companies from startups, SME to MNC.
+
+Ironically her favourite pastime away from work involves traveling to remote islands without WiFi for deep sea diving expeditions and reading books with tangible covers."
+  speaker_github_url: "https://www.linkedin.com/in/jecfish/"
+  speaker_twitter_url: " https://twitter.com/jecfish"
   is_mc: false
 
 speakers:
@@ -53,6 +69,7 @@ speakers:
   speaker_2: *FabioBiondi
   speaker_3: *Gift
   speaker_4: *LucaMezzalira
+  speaker_5: *JecelynYeen
 
 tracks:
   track_1: &track_1
@@ -127,3 +144,4 @@ days:
           speaker_2: *FabioBiondi
           speaker_3: *Gift
           speaker_4: *LucaMezzalira
+          speaker_5: *JecelynYeen
