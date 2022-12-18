@@ -11,5 +11,5 @@ section(id="cfp").section_nopadding
           else
             - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_hero)
 
-          span !{site.data.defaults.conference.cfp_open_label} #{cfp_deadline}
+          span !{site.data.defaults.conference.cfp_open_label} #{cfp_deadline} UTC
           a(href=url_for("welcome/cfp.html") aria-label=site.data.defaults.conference.cfp_register_aria_label).button.is-medium.is-rounded.is-primary !{site.data.defaults.conference.cfp_readmore_label}
