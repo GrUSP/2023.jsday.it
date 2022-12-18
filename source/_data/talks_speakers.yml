@@ -38,10 +38,21 @@ Gift loves to share her experience in web development, and career-related topics
   speaker_twitter_url: "https://twitter.com/lauragift_"
   is_mc: false
 
+speaker_4: &LucaMezzalira
+  speaker_in_speaker_lists: true
+  speaker_name: "Luca Mezzalira"
+  speaker_pic_filename: Luca_Mezzalira.png
+  speaker_role: "Principal Serverless Specialist Solutions Architect @ AWS"
+  speaker_bio: "Luca Mezzalira is Principal Serverless Specialist Solutions Architect at AWS, an international speaker, and an author. Over the past 18 years, he’s mastered software architectures from frontend to the cloud, providing the right solution for the context of the job at hand."
+  speaker_github_url: "https://www.linkedin.com/in/lucamezzalira"
+  speaker_twitter_url: " https://twitter.com/lucamezzalira"
+  is_mc: false
+
 speakers:
   speaker_1: *SaraGerion
   speaker_2: *FabioBiondi
   speaker_3: *Gift
+  speaker_4: *LucaMezzalira
 
 tracks:
   track_1: &track_1
@@ -115,3 +126,4 @@ days:
           speaker_1: *SaraGerion
           speaker_2: *FabioBiondi
           speaker_3: *Gift
+          speaker_4: *LucaMezzalira
