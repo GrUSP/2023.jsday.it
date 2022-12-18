@@ -5,13 +5,15 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
 speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+  speaker_in_speaker_lists: true
+  speaker_name: "Fabio Biondi"
+  speaker_pic_filename: Fabio_Biondi.png
+  speaker_role: "Front-End Instructor  Google Developer Expert  Microsoft MVP"
+  speaker_bio: "Fabio is a front-end instructor, speaker, content creator and run several front-end communities.
+He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals. 
+He often work on cutting-edge libraries and frameworks offering training, development, code review and consulting on Angular, React and several other front-end technologies."
+  speaker_github_url: "https://fabiobiodi.dev"
+  speaker_twitter_url: "https://twitter.com/biondifabio"
   is_mc: false
 
 speakers:
@@ -41,7 +43,7 @@ days:
     date: 2021-07-06T09:45+02:00
     title: "Day 1"
     talks:
-    # service
+      # service
       opening:
         item_type: "service"
         start_datetime: 2021-07-06T09:45+02:00
