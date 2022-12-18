@@ -4,7 +4,18 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
+speaker_1: &SaraGerion
+  speaker_in_speaker_lists: true
+  speaker_name: "Sara Gerion"
+  speaker_pic_filename: Sara_Gerion.png
+  speaker_role: "Senior Solutions Architect @ AWS"
+  speaker_bio: "Sara is a senior solutions architect at AWS and maintainer of the library AWS Lambda Powertools for TypeScript. 
+  She has a background in backend engineering and is passionate about scalability, observability, and resilience in the cloud."
+  speaker_github_url: " https://www.linkedin.com/in/sara-gerion/"
+  speaker_twitter_url: "https://twitter.com/Sarutule"
+  is_mc: false
+
+speaker_2: &FabioBiondi
   speaker_in_speaker_lists: true
   speaker_name: "Fabio Biondi"
   speaker_pic_filename: Fabio_Biondi.png
@@ -17,7 +28,8 @@ He often work on cutting-edge libraries and frameworks offering training, develo
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *SaraGerion
+  speaker_2: *FabioBiondi
 
 tracks:
   track_1: &track_1
@@ -77,7 +89,8 @@ days:
         talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *SaraGerion
+          speaker_2: *FabioBiondi
       titolotalk1:
         item_type: "talk"
         track: *track_1
@@ -87,4 +100,5 @@ days:
         talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *SaraGerion
+          speaker_2: *FabioBiondi
