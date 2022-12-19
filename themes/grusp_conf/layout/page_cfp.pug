@@ -11,11 +11,7 @@ block content
           include ../source/assets/ico/ico-cfp.svg
           h1(role="heading" aria-level="1").is-title-is-1 !{site.data.page_cfp.intro.main_title}
 
-        - var cfp_deadline = ""
-        if(site.data.defaults.conference.is_online_only === true)
-          - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_hero_online)
-        else
-          - cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_hero)
+        - var cfp_deadline = date(site.data.defaults.conference.cfp_deadline, config.date_format_cfp)
 
         p
           strong !{site.data.page_cfp.intro.date_intro} #{cfp_deadline}
@@ -35,7 +31,7 @@ block content
           a(href=contact_url) !{site.data.defaults.conference.contact_email}
         if(site.data.page_cfp.contact.help_url)
           p !{site.data.page_cfp.contact.help_intro}
-            a(href=site.data.page_cfp.contact.help_url) !{href=site.data.page_cfp.contact.help_url}
+            a(href=site.data.page_cfp.contact.help_url) !{href=site.data.page_cfp.contact.help_url_title}
         if(site.data.defaults.conference.cfp_open)
           .is-centered
             a(href=site.data.page_cfp.cfp_register_url aria-label=site.data.defaults.conference.cfp_register_aria_label).button.is-medium.is-rounded.is-primary !{site.data.defaults.conference.cfp_register_label}
