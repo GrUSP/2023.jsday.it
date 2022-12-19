@@ -22,35 +22,34 @@ team:
   intro: ""
   members:
     member_1:
-      name: "Giulia Tosato"
-      role: "Event Manager"
-      pic_filename: "giulia.jpg"
-    member_2:
-      name: "Giovanna Ferrari"
-      role: "Sponsors Manager"
-      pic_filename: "giovanna.jpg"
-    member_3:
-      name: "Alessandro 'Cirpo' Cinelli"
-      role: "Technical Committee"
-      pic_filename: "cirpo.jpg"
-    member_4:
-      name: "Nicolò Maria Mezzopera"
-      role: "Technical Committee"
-      pic_filename: "nicolo-mezzopera.jpg"
-    member_5:
       name: "Matteo Beccati"
       role: "GrUSP Board Member"
       pic_filename: "matteo.jpg"
-    member_6:
+    member_2:
+      name: "Alessandro 'Cirpo' Cinelli"
+      role: "Technical Committee"
+      pic_filename: "cirpo.jpg"
+    member_3:
       name: "Cesare D'Amico"
       role: "GrUSP Board Member"
       pic_filename: "cesare.jpg"
-    member_7:
+    member_4:
+      name: "Giovanna Ferrari"
+      role: "Sponsors Manager"
+      pic_filename: "giovanna.jpg"
+    member_5:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
       pic_filename: "daniel.jpg"
-    member_8:
+    member_6:
       name: "Francesco Fullone"
       role: "Troublemaker"
       pic_filename: "fullo.jpg"
-
+    member_7:
+      name: "Nicolò Maria Mezzopera"
+      role: "Technical Committee"
+      pic_filename: "nicolo-mezzopera.jpg"
+    member_8:
+      name: "Giulia Tosato"
+      role: "Event Manager"
+      pic_filename: "giulia.jpg"
