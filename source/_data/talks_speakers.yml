@@ -29,7 +29,7 @@ He often work on cutting-edge libraries and frameworks offering training, develo
   speaker_twitter_url: "https://twitter.com/biondifabio"
   is_mc: false
 
-speaker_3: &Gift
+speaker_3: &GiftEgwuenu
   speaker_in_speaker_lists: true
   speaker_name: "Gift Egwuenu"
   speaker_pic_filename: Gift_Egwuenu.png
@@ -105,15 +105,15 @@ speaker_9: &SunilPai
   speaker_twitter_url: "https://twitter.com/threepointone"
 
 speakers:
-  speaker_1: *SaraGerion
-  speaker_2: *FabioBiondi
-  speaker_3: *Gift
-  speaker_4: *LucaMezzalira
-  speaker_5: *JecelynYeen
-  speaker_6: *LucianoMammino
-  speaker_7: *JaniEväkallio
+  speaker_1: *FabioBiondi
+  speaker_2: *GiftEgwuenu
+  speaker_3: *JaniEväkallio
+  speaker_4: *SaraGerion
+  speaker_5: *LucianoMammino
+  speaker_6: *LucaMezzalira
+  speaker_7: *SunilPai
   speaker_8: *SaraVieira
-  speaker_9: *SunilPai
+  speaker_9: *JecelynYeen
 
 tracks:
   track_1: &track_1
@@ -184,13 +184,13 @@ days:
         talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *SaraGerion
-          speaker_2: *FabioBiondi
-          speaker_3: *Gift
-          speaker_4: *LucaMezzalira
-          speaker_5: *JecelynYeen
-          speaker_6: *LucianoMammino
-          speaker_7: *JaniEväkallio
+          speaker_1: *FabioBiondi
+          speaker_2: *GiftEgwuenu
+          speaker_3: *JaniEväkallio
+          speaker_4: *SaraGerion
+          speaker_5: *LucianoMammino
+          speaker_6: *LucaMezzalira
+          speaker_7: *SunilPai
           speaker_8: *SaraVieira
-          speaker_9: *SunilPai
+          speaker_9: *JecelynYeen
 
