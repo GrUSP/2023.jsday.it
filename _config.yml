@@ -18,12 +18,12 @@ description: "jsday 2023, international JavaScript conference in Verona (Italy)"
 keywords: conference,software conference,js,javascript,tech conference,community conference
 author: GrUSP
 language: en
-timezone: 'Europe/Rome'
+timezone: "Europe/Rome"
 # si può sostituire con il logo della conferenza (`img/conference-logo.png`)
-image: 'img/grusp-logo-full.png'
+image: "img/grusp-logo-full.png"
 open_graph:
   # si può sostituire con il logo della conferenza (`img/conference-logo.png`)
-  image: 'img/grusp-logo-full.png'
+  image: "img/grusp-logo-full.png"
 twitter:
   twitter_id: jsconfit
 fb:
@@ -52,12 +52,13 @@ date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 date_format_extended: MMMM DD, YYYY
 date_format_hero: MMMM DD, YYYY HH:mm
+date_format_cfp: MMMM DD, YYYY
 date_format_hero_online: MMMM DD, YYYY HH:mm z
 time_format_schedule: HH:mm
 
 # responsive images
 responsive_images:
-  - pattern: '**/*.+(jpg|jpeg)'
+  - pattern: "**/*.+(jpg|jpeg)"
     sizes:
       mobile_small:
         width: 360
@@ -100,7 +101,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -110,7 +111,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 
@@ -119,7 +120,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -149,7 +150,7 @@ ignore:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: ""
 
 node_sass:
   outputStyle: nested
