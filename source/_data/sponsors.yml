@@ -24,10 +24,10 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-#   sponsor4:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+  sponsor1:
+    name: "extera"
+    logo_filename: "extera.svg"
+    site_url: "https://www.extera.com/"
 #   sponsor6:
 #     name: ""
 #     logo_filename: ""
