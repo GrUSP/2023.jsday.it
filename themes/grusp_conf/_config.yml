@@ -11,11 +11,11 @@ menu:
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#   workshop_1: rails and vue
+workshop_submenu:
+   workshop_1: Fastify Course
 #   workshop_2: sample second workshop
 
 # welcome submenu

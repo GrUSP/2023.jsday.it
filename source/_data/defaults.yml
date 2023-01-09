@@ -58,8 +58,8 @@ conference:
   geninfo_visible: true
   geninfo_title: "What is it?"
   geninfo_description: "jsday 2023 is the 12th edition of the Italian JavaScript conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a>, <a href='https://www.reactjsday.it/'>reactjsday</a> and many others.
-  <br> <br /> The event is international and all sessions will be in English. This 2023 edition is taking place in Verona, and will last 2 days (13th and 14th April)"
-  # <br> <br /> On the day before the conference, we are hosting a <a href='https://2022.jsday.it/workshop/nodejs_testing.html'>workshop on Node.js Testing</a> with Yoni Goldberg (tickets are sold separately)."
+  <br> <br /> The event is international and all sessions will be in English. This 2023 edition is taking place in Verona, and will last 2 days (13th and 14th April)
+  <br> <br /> On the day before the conference, we are hosting a <a href='https://2023.jsday.it/workshop/fastify_course.html'>workshop on Fastify</a> with Matteo Collina (tickets are sold separately)."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -110,7 +110,7 @@ conference:
     - "React"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Buy tickets"
   workshops_readmore_label: "Read more"
