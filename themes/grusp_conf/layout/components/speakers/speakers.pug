@@ -22,10 +22,10 @@ section(id="hero__speakers").section_nopadding
           if site.data.defaults.conference.speaker_count_text
             | !{site.data.defaults.conference.speaker_count_text}
           else
-            | !{no_of_speakers} !{site.data.defaults.conference.speakers_title}!{suffix} announced so far:
-            if no_of_mcs > 0
-              = " + "
-              | !{no_of_mcs} !{site.data.defaults.conference.mcs_title}!{mcs_suffix}
+            | 1 MC and !{no_of_speakers} !{site.data.defaults.conference.speakers_title}!{suffix} announced so far  :
+            //- if no_of_mcs > 0
+            //-   = " + "
+            //-   | !{no_of_mcs} !{site.data.defaults.conference.mcs_title}!{mcs_suffix}
         .inner_holder
           //- removed sort
           //-- const filtered_speaker_names = var_speakers.map(speaker => speaker.speaker_name).filter((value, index, self) => self.indexOf(value) === index).sort((a, b) => (a.speaker_name > b.speaker_name) ? 1 : -1)
