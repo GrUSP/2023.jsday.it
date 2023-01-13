@@ -107,7 +107,7 @@ speaker_10: &JayneMast
   speaker_in_speaker_lists: true
   speaker_name: "Jayne Mast"
   speaker_pic_filename: Jayne_Mast.png
-  speaker_role: "Front-end Developer / Engineering Manager"
+  speaker_role: "MASTER OF CEREMONY Front-end Developer / Engineering Manager"
   speaker_bio: "Jayne has been working as a front-end engineer for over 15 years at companies like Booking.com, Instapro, Confrere, and Daily. <br />
   She’s passionate about welcoming everyone into tech and making the web work for everyone and has organized QueerJS, Global Diversity CFP Day, CSSClasses, and various other events and conferences.  <br />
   Nowadays, she gives talks about topics like ethics, diversity, and inclusivity, to help make everyone feel as welcome in tech as she was 15 years ago."
