@@ -16,6 +16,10 @@ diamond:
 #     site_url: ""
 gold:
   sponsor1:
+    name: "platformatic.dev"
+    logo_filename: "platformatic.svg"
+    site_url: "https://platformatic.dev"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -28,6 +32,11 @@ silver:
     name: "extera"
     logo_filename: "extera.svg"
     site_url: "https://www.extera.com/"
+  sponsor2:
+    name: "facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+
 #   sponsor6:
 #     name: ""
 #     logo_filename: ""
