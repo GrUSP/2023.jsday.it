@@ -9,11 +9,11 @@ diamond:
     name: "CentralReach"
     logo_filename: "centralreach.svg"
     site_url: "https://centralreach.com/"
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "Storyblok"
+    logo_filename: "storyblok.svg"
+    site_url: "https://www.storyblok.com/"
 gold:
   sponsor1:
     name: "platformatic.dev"
@@ -36,7 +36,14 @@ silver:
     name: "facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-
+  sponsor3:
+    name: "Madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it/"
+  sponsor4:
+    name: "Spreaker"
+    logo_filename: "spreaker.svg"
+    site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
 #   sponsor6:
 #     name: ""
 #     logo_filename: ""
