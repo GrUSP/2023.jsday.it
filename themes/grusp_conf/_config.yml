@@ -15,7 +15,7 @@ menu:
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-   fastify_course: Fastify Course
+  fastify_course: Fastify Course
 #   workshop_2: sample second workshop
 
 # welcome submenu
@@ -24,13 +24,11 @@ welcome_submenu:
   coc: code of conduct
   scholarships: scholarships
   where: where
-  # delete this row to take out of the menu
-  cfp: call for papers
 
 # stylesheets loaded in the <head>
 stylesheets:
-- /assets/css/global.css
+  - /assets/css/global.css
 
 # scripts loaded in the end of the body / commented out to prevent errors in compiling layout.pug
 scripts:
-- /assets/js/menu.js
+  - /assets/js/menu.js
