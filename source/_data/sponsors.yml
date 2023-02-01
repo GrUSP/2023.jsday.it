@@ -48,11 +48,11 @@ silver:
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# bronze:
-#   sponsor2:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+bronze:
+  sponsor4:
+    name: "Sticker Mule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
 # diversity:
 #   sponsor1:
 #     name: "S"
