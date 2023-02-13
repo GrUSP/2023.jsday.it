@@ -189,23 +189,86 @@ days:
       #   speakers:
       #     speaker_1: *SaraGerion
       #     speaker_2: *FabioBiondi
-      titolotalk1:
+      talk_1:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        talk_title: "Debugging & DevTools"
+        talk_description: "In this talk, Jecelyn from the Chrome DevTools team will walk you through the state of debugging and improvements in DevTools."
         talk_video_url:
         speakers:
-          speaker_1: *FabioBiondi
-          speaker_2: *GiftEgwuenu
-          speaker_3: *JaniEväkallio
-          speaker_4: *SaraGerion
-          speaker_5: *LucianoMammino
-          speaker_6: *LucaMezzalira
-          speaker_7: *SunilPai
-          speaker_8: *SaraVieira
-          speaker_9: *JecelynYeen
-          speaker_10: *JayneMast
+          speaker_1: *JecelynYeen
+      talk_2: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Production-ready lambdas with Node.js"
+        talk_description: "A few tips that i learned along the way on how to build production-grade lambdas using AWS: testing, logging, metrics, tracing, infrastructure as code, code-reuse, frameworks and more! Writing Lambdas is quite easy, at the end of the day it is just a function, right?! But writing GOOD production-grade lambdas, well that is an entirely other story. In this talk, I will share some of the tips and tricks that I learned building Lambda functions in Node.js during the last 6 years. We will talk about code organisation and code reuse, testing, logging, metrics, tracing, infrastructure as code and more."
+        talk_video_url:
+        speakers:
+          speaker_1: *LucianoMammino
+      talk_3: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Powering up Micro-frontends at the Edge!"
+        talk_description: "Today's digital landscape has become a fast-paced environment where businesses constantly look for ways to increase efficiency, reduce latency, and improve user experience. Micro-frontends offer a new approach to front-end development, addressing these challenges by breaking down monolithic front-ends applications into smaller, independent, and reusable components, making them easier to deploy, manage, and scale. As part of this talk, we will explore micro-frontends and how to gradually incorporate the architecture into existing codebases using Cloudflare Workers. It can be time-consuming to completely migrate a legacy application using the micro-frontends approach, so we'll explore ways to effectively and efficiently adopt and implement micro-frontends. This talk will give attendees a strong foundation for creating micro-frontends powered by Cloudflare Workers to enable them to enhance their applications leading to better user experience and increased performance."
+        talk_video_url:
+        speakers:
+          speaker_1: *GiftEgwuenu
+      talk_4: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Building Intelligent Rich Text Editing Interfaces for the Web"
+        talk_description: "Building a good text editing application is hard, but building one for the web platform is bare gnarly. I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing interface using TypeScript, and how you can build your own. Learn from my mistakes, I've made them all!"
+        talk_video_url:
+        speakers:
+          speaker_1: *JaniEväkallio
+      talk_5: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Micro-frontends discovery"
+        talk_description: "Micro-Frontends are gaining more popularity year over year. There are some aspects to discover and many others to improve. During this talk we are going to explore one of the main challenges with micro-frontends: the discoverability. Being able to dynamically discover micro-frontends allows us to easily work in multi-environments strategy and reduce the blast radius of new deployments."
+        talk_video_url:
+        speakers:
+          speaker_1: *LucaMezzalira      
+      talk_6: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Designing and building resilient backend APIs in the cloud"
+        talk_description: "An application is resilient when it has the ability to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate issues, such as misconfigurations or transient network issues. Since resiliency is key for an optimal customer experience, building highly resilient workloads in the cloud is a goal for many businesses, from startups to enterprises. If you're a developer, tech lead, or architect wondering what can you do to foster resiliency best practices within your team or organisation, this is the right talk for you. Through a mix of theory, code examples and a demo, you will learn advanced patterns and design principles you should consider at every stage of the software lifecycle."
+        talk_video_url:
+        speakers:
+          speaker_1: *SaraGerion      
+      talk_7: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "3D in the web for the rest of us "
+        talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
+        talk_video_url:
+        speakers:
+          speaker_1: *SaraVieira      
+      talk_8: 
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Everything's better with friends"
+        talk_description: "Software is meant to be alive, interactive, and experience shared best with your friends and colleagues. Building applications like these have always been difficult for mere mortals - they're expensive, hard to build and maintain, and never quite right ...until now. Over the last few years, changes in the ecosystem and platform capabilities have made the building blocks for building real-time collaborative applications much more accessible and within the reach of developers like you and me. I'd like to show you some of the work I've been doing in this area, as well as participate in a demo built on this technology. "
+        talk_video_url:
+        speakers:
+          speaker_1: *SunilPai
+          # speaker_1: *FabioBiondi
+          # speaker_10: *JayneMast
 
