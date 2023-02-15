@@ -114,6 +114,66 @@ speaker_10: &JayneMast
   speaker_linkedin_url: "https://nl.linkedin.com/in/jayne-mast"
   speaker_twitter_url: "https://twitter.com/jayne_mast/"
   is_mc: true
+speaker_11: &SoumayaErradi
+  speaker_in_speaker_lists: true
+  speaker_name: "Soumaya Erradi"
+  speaker_pic_filename: Soumaya_Erradi.png
+  speaker_role: "Lead software developer @ Scaling Parrots"
+  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. 
+I'm high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. <br />
+Currently, I'm working as frontend lead developer in a team focused on blockchain app development. 
+I'm also holding coding courses and meetups to deepen technical and business issues related to Blockchain and Smart Contracts."
+  speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi/"
+  speaker_twitter_url: "https://twitter.com/sumy92"
+  speaker_github_url: "https://github.com/soumayaerradi"
+speaker_12: &PhilNash
+  speaker_in_speaker_lists: true
+  speaker_name: "Phil Nash"
+  speaker_pic_filename: Phil_Nash.png
+  speaker_role: "Developer Advocate @ Sonar"
+  speaker_bio: "Phil is a developer advocate for Sonar and Google Developer Expert living in Melbourne, Australia. He loves working with Ruby or JavaScript to build web applications and tools to help developers. <br />He once helped build a website that captured the world's favourite sandwich fillings. He has too many GitHub repositories.
+<br />
+Away from the keyboard, Phil listens to ska punk, hangs out with his miniature dachshund (also called Ruby), and is on a mission to discover the world's best beers.
+"
+  speaker_linkedin_url: "https://www.linkedin.com/in/philnash/"
+  speaker_twitter_url: "https://twitter.com/philnash"
+  speaker_github_url: "https://github.com/philnash"
+  speaker_general_url: "https://philna.sh"
+speaker_13: &MartinaLilla
+  speaker_in_speaker_lists: true
+  speaker_name: "Martina Lilla"
+  speaker_pic_filename: Martina_Lilla.png
+  speaker_role: "Software Engineer @ SynDiag"
+  speaker_bio: "I’m a developer who loves open source and JavaScript. I work at Igalia, where I help push the web forward, and I maintain Babel — the JavaScript compiler. I’m also a TC39 delegate and I’ve helped developing different JavaScript proposals over the years. When offline, I’m a math student in Turin, Italy."
+  speaker_linkedin_url: "https://www.linkedin.com/in/martina-lilla/"
+  speaker_github_url: "https://github.com/martinalilla"
+speaker_14: &MicheleRiva
+  speaker_in_speaker_lists: true
+  speaker_name: "Michele Riva"
+  speaker_pic_filename: Michele_Riva.png
+  speaker_role: "Staff Engineer @ NearForm"
+  speaker_bio: "I'm a passionate and experienced software engineer, Google GDE, and Microsoft MVP working full-time on open-source software. I currently work as a Staff Engineer at NearForm while traveling the world to speak at international conferences.<br /> I am also developing Lyra, the next-generation full-text search engine written entirely in TypeScript.
+I am always up for speaking about software, philosophy, photography... or literally whatever comes to your mind!"
+  speaker_linkedin_url: "https://linkedin.com/in/MicheleRiva95"
+  speaker_twitter_url: "https://twitter.com/MicheleRivaCode"
+  speaker_github_url: "https://github.com/MicheleRiva"
+speaker_15: &NicoloRibaudo
+  speaker_in_speaker_lists: true
+  speaker_name: "Nicolò Ribaudo"
+  speaker_pic_filename: Nicolo_Ribaudo.png
+  speaker_role: "Open Source Developer @ Igalia"
+  speaker_bio: "I’m a developer who loves open source and JavaScript. I work at Igalia, where I help push the web forward, and I maintain Babel — the JavaScript compiler. <br />
+  I’m also a TC39 delegate and I’ve helped developing different JavaScript proposals over the years. <br />
+  When offline, I’m a math student in Turin, Italy."
+  speaker_twitter_url: "https://twitter.com/NicoloRibaudo"
+  speaker_github_url: "https://github.com/nicolo-ribaudo"
+speaker_16: &TejasKumar
+  speaker_in_speaker_lists: true
+  speaker_name: "Tejas Kumar"
+  speaker_pic_filename: Tejas_Kumar.png
+  speaker_role: "YouTuber"
+  speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops. <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work."
+ 
 
 
 speakers:
@@ -126,7 +186,14 @@ speakers:
   speaker_7: *SunilPai
   speaker_8: *SaraVieira
   speaker_9: *JecelynYeen
-  speaker_10: *JayneMast
+
+  speaker_11: *PhilNash
+  speaker_12: *MartinaLilla
+  speaker_13: *MicheleRiva
+  speaker_14: *SoumayaErradi
+  speaker_15: *NicoloRibaudo
+  speaker_16: *TejasKumar
+  speaker_17: *JayneMast
 
 
 tracks:
@@ -269,6 +336,86 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *SunilPai
-          # speaker_1: *FabioBiondi
-          # speaker_10: *JayneMast
+      talk_9:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Implementing web3 via APIs is still decentralized?"
+        talk_description: "When we talk about decentralized applications we mean an application where control and decision-making is transferred to a distributed network. 
+Sometimes we find this formula: a user that interacts with the dApp frontend — either web or mobile — which then interacts with the backend APIs. The backend, then, on request interacts with the smart contract(s) or blockchain through public nodes. 
+Is this the right way to build a decentralized application or we are missing something? 
+Let’s dive into it!"
+        talk_video_url:
+        speakers:
+          speaker_1: *SoumayaErradi
+      talk_10:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The top 5 JavaScript issues in all our codebases"
+        talk_description: "We all try to write the best code we can, but sometimes things slip through the cracks. With a look at the data from scans of thousands of projects, we can tell what the most common issues are in the codebases of all JavaScript developers.
+
+In this talk we’ll take a look at those top issues that plague JavaScript projects around the world, we'll see why they are issues, and finally how to spot and avoid those common errors, issues or anti patterns. By the end of the talk you’ll feel more confident in your codebase and maybe have a few things to fix."
+        talk_video_url:
+        speakers:
+          speaker_1: *PhilNash
+      talk_11:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Multimedia file management in web applications: a solution with Typescript, NodeJS and ffmpeg in a serverless application"
+            talk_description: "We, as streaming service users, consume daily movies and media that are easily accessible and can be enjoyed mostly on every device and any browser. <br />
+             However, this is not always the case. There are still many industries that deal with data that initially have extensions not supported by browsers and thus they are not immediately available for visualization and usage. <br />
+             The problem is certainly very common in HealthCare companies that have to deal with data coming from Medical Devices (ultrasound scan, CT scan…), and that come next handled, visualized and used in Web Applications to provide Digital Services or for Artificial Intelligence implementations. These companies face the problem of converting in real time a large amount of data, and they need fast, reliable and scalable solutions. 
+<br /> During this talk, I’ll show you how to make large amounts of media files available in browsers and web applications, by creating a service with Typescript, NodeJS, and fluent-ffmpeg, in a serverless application to ensure availability and scalability."
+            talk_video_url:
+            speakers:
+              speaker_1: *MartinaLilla
+      talk_12:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Lyra: Disrupting full-text search industry with JavaScript"
+            talk_description: "How can a JavaScript-based search engine retrieve millions of records in a matter of microseconds? <br/> 
+            Why is JavaScript the right language to implement a true isomorphic application to be deployed everywhere, from mobile applications to edge networks? <br />
+            In this talk, we will see how Lyra, a full-text search engine written in JavaScript, is challenging the search industry with an incredible combination of performance and developer experience."
+            speakers:
+              speaker_1: *MicheleRiva
+      talk_13:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Migrating Babel from CommonJS to ESM"
+            talk_description: "CommonJS has been the go-to module system for Node.js for more than a decade, but the ecosystem is slowly moving to ECMAScript Modules. 
+            <br />CommonJS and ESM have different features, and they are not fully compatible with each other: should existing libraries migrate to ESM? Should they keep using ESM forever? Are JavaScript tools ready for native ESM?
+<br />
+Babel is one of the most used packages on npm, and we have been slowly working to move away from CommonJS. What obstacles have we found? How did we overcome them? What have we learned in the process? How do we ensure a smooth transition for our users?a"
+            speakers:
+              speaker_1: *NicoloRibaudo
+      talk_14:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "The state of frontend frameworks in 2023"
+            talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
+            speakers:
+              speaker_1: *TejasKumar
+      talk_15:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Astro & island architectures: build fast and SEO friendly websites"
+            talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
+Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
+In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
+            speakers:
+              speaker_1: *FabioBiondi
+  
 
