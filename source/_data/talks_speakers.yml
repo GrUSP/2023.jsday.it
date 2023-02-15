@@ -186,13 +186,14 @@ speakers:
   speaker_7: *SunilPai
   speaker_8: *SaraVieira
   speaker_9: *JecelynYeen
-  speaker_10: *SoumayaErradi
+
   speaker_11: *PhilNash
   speaker_12: *MartinaLilla
   speaker_13: *MicheleRiva
-  speaker_14: *NicoloRibaudo
-  speaker_15: *TejasKumar
-  speaker_16: *JayneMast
+  speaker_14: *SoumayaErradi
+  speaker_15: *NicoloRibaudo
+  speaker_16: *TejasKumar
+  speaker_17: *JayneMast
 
 
 tracks:
