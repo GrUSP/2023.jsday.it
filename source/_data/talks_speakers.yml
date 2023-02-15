@@ -118,7 +118,7 @@ speaker_11: &SoumayaErradi
   speaker_in_speaker_lists: true
   speaker_name: "Soumaya Erradi"
   speaker_pic_filename: Soumaya_Erradi.png
-  speaker_role: "Lead software developer Scaling Parrots"
+  speaker_role: "Lead software developer @ Scaling Parrots"
   speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. 
 I'm high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. <br />
 Currently, I'm working as frontend lead developer in a team focused on blockchain app development. 
@@ -126,7 +126,19 @@ I'm also holding coding courses and meetups to deepen technical and business iss
   speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi/"
   speaker_twitter_url: "https://twitter.com/sumy92"
   speaker_github_url: "https://github.com/soumayaerradi"
-
+speaker_12: &PhilNash
+  speaker_in_speaker_lists: true
+  speaker_name: "Phil Nash"
+  speaker_pic_filename: Phil_Nash.png
+  speaker_role: "Developer Advocate @ Sonar"
+  speaker_bio: "Phil is a developer advocate for Sonar and Google Developer Expert living in Melbourne, Australia. He loves working with Ruby or JavaScript to build web applications and tools to help developers. <br />He once helped build a website that captured the world's favourite sandwich fillings. He has too many GitHub repositories.
+<br />
+Away from the keyboard, Phil listens to ska punk, hangs out with his miniature dachshund (also called Ruby), and is on a mission to discover the world's best beers.
+"
+  speaker_linkedin_url: "https://www.linkedin.com/in/philnash/"
+  speaker_twitter_url: "https://twitter.com/philnash"
+  speaker_github_url: "https://github.com/philnash"
+  speaker_general_url: "https://philna.sh"
 
 speakers:
   speaker_1: *FabioBiondi
@@ -140,6 +152,7 @@ speakers:
   speaker_9: *JecelynYeen
   speaker_10: *JayneMast
   speaker_11: *SoumayaErradi
+  speaker_12: *PhilNash
 
 
 tracks:
@@ -295,5 +308,17 @@ Let’s dive into it!"
         talk_video_url:
         speakers:
           speaker_1: *SoumayaErradi
+      talk_10:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The top 5 JavaScript issues in all our codebases"
+        talk_description: "We all try to write the best code we can, but sometimes things slip through the cracks. With a look at the data from scans of thousands of projects, we can tell what the most common issues are in the codebases of all JavaScript developers.
+
+In this talk we’ll take a look at those top issues that plague JavaScript projects around the world, we'll see why they are issues, and finally how to spot and avoid those common errors, issues or anti patterns. By the end of the talk you’ll feel more confident in your codebase and maybe have a few things to fix."
+        talk_video_url:
+        speakers:
+          speaker_1: *PhilNash
   
 
