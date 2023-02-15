@@ -114,6 +114,18 @@ speaker_10: &JayneMast
   speaker_linkedin_url: "https://nl.linkedin.com/in/jayne-mast"
   speaker_twitter_url: "https://twitter.com/jayne_mast/"
   is_mc: true
+speaker_11: &SoumayaErradi
+  speaker_in_speaker_lists: true
+  speaker_name: "Soumaya Erradi"
+  speaker_pic_filename: Soumaya_Erradi.png
+  speaker_role: "Lead software developer Scaling Parrots"
+  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. 
+I'm high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. <br />
+Currently, I'm working as frontend lead developer in a team focused on blockchain app development. 
+I'm also holding coding courses and meetups to deepen technical and business issues related to Blockchain and Smart Contracts."
+  speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi/"
+  speaker_twitter_url: "https://twitter.com/sumy92"
+  speaker_github_url: "https://github.com/soumayaerradi"
 
 
 speakers:
@@ -127,6 +139,7 @@ speakers:
   speaker_8: *SaraVieira
   speaker_9: *JecelynYeen
   speaker_10: *JayneMast
+  speaker_11: *SoumayaErradi
 
 
 tracks:
@@ -269,6 +282,18 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *SunilPai
-          # speaker_1: *FabioBiondi
-          # speaker_10: *JayneMast
+      talk_9:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Implementing web3 via APIs is still decentralized?"
+        talk_description: "When we talk about decentralized applications we mean an application where control and decision-making is transferred to a distributed network. 
+Sometimes we find this formula: a user that interacts with the dApp frontend — either web or mobile — which then interacts with the backend APIs. The backend, then, on request interacts with the smart contract(s) or blockchain through public nodes. 
+Is this the right way to build a decentralized application or we are missing something? 
+Let’s dive into it!"
+        talk_video_url:
+        speakers:
+          speaker_1: *SoumayaErradi
+  
 
