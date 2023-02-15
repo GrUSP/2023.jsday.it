@@ -186,13 +186,13 @@ speakers:
   speaker_7: *SunilPai
   speaker_8: *SaraVieira
   speaker_9: *JecelynYeen
-  speaker_10: *JayneMast
-  speaker_11: *SoumayaErradi
-  speaker_12: *PhilNash
-  speaker_13: *MartinaLilla
-  speaker_14: *MicheleRiva
-  speaker_15: *NicoloRibaudo
-  speaker_16: *TejasKumar
+  speaker_10: *SoumayaErradi
+  speaker_11: *PhilNash
+  speaker_12: *MartinaLilla
+  speaker_13: *MicheleRiva
+  speaker_14: *NicoloRibaudo
+  speaker_15: *TejasKumar
+  speaker_16: *JayneMast
 
 
 tracks:
@@ -405,5 +405,16 @@ Babel is one of the most used packages on npm, and we have been slowly working t
             talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
             speakers:
               speaker_1: *TejasKumar
+      talk_15:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Astro & island architectures: build fast and SEO friendly websites"
+            talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
+Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
+In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
+            speakers:
+              speaker_1: *FabioBiondi
   
 
