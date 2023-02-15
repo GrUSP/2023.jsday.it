@@ -147,6 +147,16 @@ speaker_13: &MartinaLilla
   speaker_bio: "I’m a developer who loves open source and JavaScript. I work at Igalia, where I help push the web forward, and I maintain Babel — the JavaScript compiler. I’m also a TC39 delegate and I’ve helped developing different JavaScript proposals over the years. When offline, I’m a math student in Turin, Italy."
   speaker_linkedin_url: "https://www.linkedin.com/in/martina-lilla/"
   speaker_github_url: "https://github.com/martinalilla"
+speaker_14: &MicheleRiva
+  speaker_in_speaker_lists: true
+  speaker_name: "Michele Riva"
+  speaker_pic_filename: Michele_Riva.png
+  speaker_role: "Staff Engineer @ NearForm"
+  speaker_bio: "I'm a passionate and experienced software engineer, Google GDE, and Microsoft MVP working full-time on open-source software. I currently work as a Staff Engineer at NearForm while traveling the world to speak at international conferences.<br /> I am also developing Lyra, the next-generation full-text search engine written entirely in TypeScript.
+I am always up for speaking about software, philosophy, photography... or literally whatever comes to your mind!"
+  speaker_linkedin_url: "https://linkedin.com/in/MicheleRiva95"
+  speaker_twitter_url: "https://twitter.com/MicheleRivaCode"
+  speaker_github_url: "https://github.com/MicheleRiva"
 
 
 speakers:
@@ -163,6 +173,7 @@ speakers:
   speaker_11: *SoumayaErradi
   speaker_12: *PhilNash
   speaker_13: *MartinaLilla
+  speaker_14: *MicheleRiva
 
 
 tracks:
@@ -343,5 +354,16 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
             talk_video_url:
             speakers:
               speaker_1: *MartinaLilla
-  
+      talk_12:
+                item_type: "talk"
+                track: *track_1
+                # start_datetime: 2022-05-19T10:25+02:00
+                # end_datetime: 2022-05-19T11:05+02:00
+                talk_title: "Lyra: Disrupting full-text search industry with JavaScript"
+                talk_description: "How can a JavaScript-based search engine retrieve millions of records in a matter of microseconds? <br/> 
+                Why is JavaScript the right language to implement a true isomorphic application to be deployed everywhere, from mobile applications to edge networks? <br />
+                In this talk, we will see how Lyra, a full-text search engine written in JavaScript, is challenging the search industry with an incredible combination of performance and developer experience."
+                speakers:
+                  speaker_1: *MicheleRiva
+      
 
