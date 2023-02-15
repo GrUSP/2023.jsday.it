@@ -159,7 +159,7 @@ I am always up for speaking about software, philosophy, photography... or litera
   speaker_github_url: "https://github.com/MicheleRiva"
 speaker_15: &NicoloRibaudo
   speaker_in_speaker_lists: true
-  speaker_name: Nicolò Ribaudo"
+  speaker_name: "Nicolò Ribaudo"
   speaker_pic_filename: Nicolo_Ribaudo.png
   speaker_role: "Open Source Developer @ Igalia"
   speaker_bio: "I’m a developer who loves open source and JavaScript. I work at Igalia, where I help push the web forward, and I maintain Babel — the JavaScript compiler. <br />
@@ -167,6 +167,13 @@ speaker_15: &NicoloRibaudo
   When offline, I’m a math student in Turin, Italy."
   speaker_twitter_url: "https://twitter.com/NicoloRibaudo"
   speaker_github_url: "https://github.com/nicolo-ribaudo"
+speaker_16: &TejasKumar
+  speaker_in_speaker_lists: true
+  speaker_name: "Tejas Kumar"
+  speaker_pic_filename: Tejas_Kumar.png
+  speaker_role: "YouTuber"
+  speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops. <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work."
+ 
 
 
 speakers:
@@ -185,6 +192,7 @@ speakers:
   speaker_13: *MartinaLilla
   speaker_14: *MicheleRiva
   speaker_15: *NicoloRibaudo
+  speaker_16: *TejasKumar
 
 
 tracks:
@@ -388,5 +396,14 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
 Babel is one of the most used packages on npm, and we have been slowly working to move away from CommonJS. What obstacles have we found? How did we overcome them? What have we learned in the process? How do we ensure a smooth transition for our users?a"
             speakers:
               speaker_1: *NicoloRibaudo
+      talk_14:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "The state of frontend frameworks in 2023"
+            talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
+            speakers:
+              speaker_1: *TejasKumar
   
 
