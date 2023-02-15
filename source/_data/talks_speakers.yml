@@ -139,6 +139,15 @@ Away from the keyboard, Phil listens to ska punk, hangs out with his miniature d
   speaker_twitter_url: "https://twitter.com/philnash"
   speaker_github_url: "https://github.com/philnash"
   speaker_general_url: "https://philna.sh"
+speaker_13: &MartinaLilla
+  speaker_in_speaker_lists: true
+  speaker_name: "Martina Lilla"
+  speaker_pic_filename: Martina_Lilla.png
+  speaker_role: "Software Engineer @ SynDiag"
+  speaker_bio: "I’m a developer who loves open source and JavaScript. I work at Igalia, where I help push the web forward, and I maintain Babel — the JavaScript compiler. I’m also a TC39 delegate and I’ve helped developing different JavaScript proposals over the years. When offline, I’m a math student in Turin, Italy."
+  speaker_linkedin_url: "https://www.linkedin.com/in/martina-lilla/"
+  speaker_github_url: "https://github.com/martinalilla"
+
 
 speakers:
   speaker_1: *FabioBiondi
@@ -153,6 +162,7 @@ speakers:
   speaker_10: *JayneMast
   speaker_11: *SoumayaErradi
   speaker_12: *PhilNash
+  speaker_13: *MartinaLilla
 
 
 tracks:
@@ -320,5 +330,18 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         talk_video_url:
         speakers:
           speaker_1: *PhilNash
+      talk_11:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Multimedia file management in web applications: a solution with Typescript, NodeJS and ffmpeg in a serverless application"
+            talk_description: "We, as streaming service users, consume daily movies and media that are easily accessible and can be enjoyed mostly on every device and any browser. <br />
+             However, this is not always the case. There are still many industries that deal with data that initially have extensions not supported by browsers and thus they are not immediately available for visualization and usage. <br />
+             The problem is certainly very common in HealthCare companies that have to deal with data coming from Medical Devices (ultrasound scan, CT scan…), and that come next handled, visualized and used in Web Applications to provide Digital Services or for Artificial Intelligence implementations. These companies face the problem of converting in real time a large amount of data, and they need fast, reliable and scalable solutions. 
+<br /> During this talk, I’ll show you how to make large amounts of media files available in browsers and web applications, by creating a service with Typescript, NodeJS, and fluent-ffmpeg, in a serverless application to ensure availability and scalability."
+            talk_video_url:
+            speakers:
+              speaker_1: *MartinaLilla
   
 
