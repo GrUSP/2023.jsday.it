@@ -9,7 +9,7 @@ speaker_1: &SaraGerion
   speaker_name: "Sara Gerion"
   speaker_pic_filename: Sara_Gerion.png
   speaker_role: "Senior Solutions Architect @ AWS"
-  speaker_bio: "Sara is a senior solutions architect at AWS and maintainer of the library AWS Lambda Powertools for TypeScript. 
+  speaker_bio: "Sara is a senior solutions architect at AWS and maintainer of the library AWS Lambda Powertools for TypeScript.
   She has a background in backend engineering and is passionate about scalability, observability, and resilience in the cloud."
   speaker_linkedin_url: " https://www.linkedin.com/in/sara-gerion/"
   speaker_twitter_url: "https://twitter.com/Sarutule"
@@ -21,7 +21,7 @@ speaker_2: &FabioBiondi
   speaker_pic_filename: Fabio_Biondi.png
   speaker_role: "Front-End Instructor  Google Developer Expert  Microsoft MVP"
   speaker_bio: "Fabio is a front-end instructor, speaker, content creator and run several front-end communities.
-He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals. 
+He is especially focused on JavaScript front-end applications and all related aspects, both visuals and architecturals.
 He often work on cutting-edge libraries and frameworks offering training, development, code review and consulting on Angular, React and several other front-end technologies."
   speaker_general_url: "https://fabiobiodi.dev"
   speaker_youtube_url: "https://www.youtube.com/c/FabioBiondi"
@@ -65,7 +65,7 @@ speaker_6: &LucianoMammino
   speaker_name: "Luciano Mammino"
   speaker_pic_filename: Luciano_Mammino.png
   speaker_role: "Senior Architect @ fourTheorem"
-  speaker_bio: "Luciano Mammino is a Senior Architect at fourTheorem where he is helping companies to get the best out of the cloud. Luciano is co-author of Node.js Design Patterns and he runs Fullstack Bulletin, a free weekly newsletter for fullstack developers. 
+  speaker_bio: "Luciano Mammino is a Senior Architect at fourTheorem where he is helping companies to get the best out of the cloud. Luciano is co-author of Node.js Design Patterns and he runs Fullstack Bulletin, a free weekly newsletter for fullstack developers.
   Luciano is also an AWS Serverless Hero and a Microsoft Most Valuable Professional (MVP)."
   speaker_github_url: "https://github.com/lmammino"
   speaker_linkedin_url: "https://www.linkedin.com/in/lucianomammino/"
@@ -77,7 +77,7 @@ speaker_7: &JaniEväkallio
   speaker_name: "Jani Eväkallio"
   speaker_pic_filename: Jani_Evakallio.png
   speaker_role: "Founding Engineer @ verb.ai"
-  speaker_bio: "A web engineer with a passion for building rich, collaborative, real-time web applications. 
+  speaker_bio: "A web engineer with a passion for building rich, collaborative, real-time web applications.
   Open Source author, comedian, improviser and once an aspiring novelist, these days Jani is building AI-enhanced text editing tools to help others, and himself, write better."
   speaker_github_url: "https://www.github.com/jevakallio"
   speaker_linkedin_url: "https://www.linkedin.com/in/jevakallio"
@@ -99,7 +99,7 @@ speaker_9: &SunilPai
   speaker_name: "Sunil Pai"
   speaker_pic_filename: Sunil_Pai.png
   speaker_role: "Chief, Cool Computer Club"
-  speaker_bio: "Sunil runs Cool Computer Club, a product and services company for people building ambitious software. Previously, he built the developer CLI for Cloudflare Workers, worked on the React team in Facebook, built out the Javascript stack at Myntra, and a whole list of other product and infrastructure teams in his career. 
+  speaker_bio: "Sunil runs Cool Computer Club, a product and services company for people building ambitious software. Previously, he built the developer CLI for Cloudflare Workers, worked on the React team in Facebook, built out the Javascript stack at Myntra, and a whole list of other product and infrastructure teams in his career.
   He can be found on twitter as @threepointone, or annoying his neighbours in London playing his Les Paul a little too loud."
   speaker_github_url: "https://github.com/threepointone"
   speaker_twitter_url: "https://twitter.com/threepointone"
@@ -119,9 +119,9 @@ speaker_11: &SoumayaErradi
   speaker_name: "Soumaya Erradi"
   speaker_pic_filename: Soumaya_Erradi.png
   speaker_role: "Lead software developer @ Scaling Parrots"
-  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. 
+  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher.
 I'm high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. <br />
-Currently, I'm working as frontend lead developer in a team focused on blockchain app development. 
+Currently, I'm working as frontend lead developer in a team focused on blockchain app development.
 I'm also holding coding courses and meetups to deepen technical and business issues related to Blockchain and Smart Contracts."
   speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi/"
   speaker_twitter_url: "https://twitter.com/sumy92"
@@ -144,7 +144,9 @@ speaker_13: &MartinaLilla
   speaker_name: "Martina Lilla"
   speaker_pic_filename: Martina_Lilla.png
   speaker_role: "Software Engineer @ SynDiag"
-  speaker_bio: "I’m a developer who loves open source and JavaScript. I work at Igalia, where I help push the web forward, and I maintain Babel — the JavaScript compiler. I’m also a TC39 delegate and I’ve helped developing different JavaScript proposals over the years. When offline, I’m a math student in Turin, Italy."
+  speaker_bio: "Martina Lilla is a Software Engineer at SynDiag, a company that provides Digital Services and Artificial Intelligence solutions to support the diagnosis of gynecological tumors.
+Her work focuses on development and maintenance of the web application (FE - Angular, BK - Nodejs, DB - MongoDB, Storage - S3) and Data Management & Engineering for AI algorithms.
+She is passionate about technology and constantly curious to learn new things and apply them by designing new digital solutions creatively and innovatively, collaborating effectively with the end user."
   speaker_linkedin_url: "https://www.linkedin.com/in/martina-lilla/"
   speaker_github_url: "https://github.com/martinalilla"
 speaker_14: &MicheleRiva
@@ -173,7 +175,7 @@ speaker_16: &TejasKumar
   speaker_pic_filename: Tejas_Kumar.png
   speaker_role: "YouTuber"
   speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops. <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work."
- 
+
 
 
 speakers:
@@ -266,7 +268,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *JecelynYeen
-      talk_2: 
+      talk_2:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -276,7 +278,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *LucianoMammino
-      talk_3: 
+      talk_3:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -286,7 +288,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *GiftEgwuenu
-      talk_4: 
+      talk_4:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -296,7 +298,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *JaniEväkallio
-      talk_5: 
+      talk_5:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -305,8 +307,8 @@ days:
         talk_description: "Micro-Frontends are gaining more popularity year over year. There are some aspects to discover and many others to improve. During this talk we are going to explore one of the main challenges with micro-frontends: the discoverability. Being able to dynamically discover micro-frontends allows us to easily work in multi-environments strategy and reduce the blast radius of new deployments."
         talk_video_url:
         speakers:
-          speaker_1: *LucaMezzalira      
-      talk_6: 
+          speaker_1: *LucaMezzalira
+      talk_6:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -315,8 +317,8 @@ days:
         talk_description: "An application is resilient when it has the ability to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate issues, such as misconfigurations or transient network issues. Since resiliency is key for an optimal customer experience, building highly resilient workloads in the cloud is a goal for many businesses, from startups to enterprises. If you're a developer, tech lead, or architect wondering what can you do to foster resiliency best practices within your team or organisation, this is the right talk for you. Through a mix of theory, code examples and a demo, you will learn advanced patterns and design principles you should consider at every stage of the software lifecycle."
         talk_video_url:
         speakers:
-          speaker_1: *SaraGerion      
-      talk_7: 
+          speaker_1: *SaraGerion
+      talk_7:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -325,8 +327,8 @@ days:
         talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
         talk_video_url:
         speakers:
-          speaker_1: *SaraVieira      
-      talk_8: 
+          speaker_1: *SaraVieira
+      talk_8:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -342,9 +344,9 @@ days:
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Implementing web3 via APIs is still decentralized?"
-        talk_description: "When we talk about decentralized applications we mean an application where control and decision-making is transferred to a distributed network. 
-Sometimes we find this formula: a user that interacts with the dApp frontend — either web or mobile — which then interacts with the backend APIs. The backend, then, on request interacts with the smart contract(s) or blockchain through public nodes. 
-Is this the right way to build a decentralized application or we are missing something? 
+        talk_description: "When we talk about decentralized applications we mean an application where control and decision-making is transferred to a distributed network.
+Sometimes we find this formula: a user that interacts with the dApp frontend — either web or mobile — which then interacts with the backend APIs. The backend, then, on request interacts with the smart contract(s) or blockchain through public nodes.
+Is this the right way to build a decentralized application or we are missing something?
 Let’s dive into it!"
         talk_video_url:
         speakers:
@@ -369,7 +371,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
             talk_title: "Multimedia file management in web applications: a solution with Typescript, NodeJS and ffmpeg in a serverless application"
             talk_description: "We, as streaming service users, consume daily movies and media that are easily accessible and can be enjoyed mostly on every device and any browser. <br />
              However, this is not always the case. There are still many industries that deal with data that initially have extensions not supported by browsers and thus they are not immediately available for visualization and usage. <br />
-             The problem is certainly very common in HealthCare companies that have to deal with data coming from Medical Devices (ultrasound scan, CT scan…), and that come next handled, visualized and used in Web Applications to provide Digital Services or for Artificial Intelligence implementations. These companies face the problem of converting in real time a large amount of data, and they need fast, reliable and scalable solutions. 
+             The problem is certainly very common in HealthCare companies that have to deal with data coming from Medical Devices (ultrasound scan, CT scan…), and that come next handled, visualized and used in Web Applications to provide Digital Services or for Artificial Intelligence implementations. These companies face the problem of converting in real time a large amount of data, and they need fast, reliable and scalable solutions.
 <br /> During this talk, I’ll show you how to make large amounts of media files available in browsers and web applications, by creating a service with Typescript, NodeJS, and fluent-ffmpeg, in a serverless application to ensure availability and scalability."
             talk_video_url:
             speakers:
@@ -380,7 +382,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
             # start_datetime: 2022-05-19T10:25+02:00
             # end_datetime: 2022-05-19T11:05+02:00
             talk_title: "Lyra: Disrupting full-text search industry with JavaScript"
-            talk_description: "How can a JavaScript-based search engine retrieve millions of records in a matter of microseconds? <br/> 
+            talk_description: "How can a JavaScript-based search engine retrieve millions of records in a matter of microseconds? <br/>
             Why is JavaScript the right language to implement a true isomorphic application to be deployed everywhere, from mobile applications to edge networks? <br />
             In this talk, we will see how Lyra, a full-text search engine written in JavaScript, is challenging the search industry with an incredible combination of performance and developer experience."
             speakers:
@@ -391,7 +393,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
             # start_datetime: 2022-05-19T10:25+02:00
             # end_datetime: 2022-05-19T11:05+02:00
             talk_title: "Migrating Babel from CommonJS to ESM"
-            talk_description: "CommonJS has been the go-to module system for Node.js for more than a decade, but the ecosystem is slowly moving to ECMAScript Modules. 
+            talk_description: "CommonJS has been the go-to module system for Node.js for more than a decade, but the ecosystem is slowly moving to ECMAScript Modules.
             <br />CommonJS and ESM have different features, and they are not fully compatible with each other: should existing libraries migrate to ESM? Should they keep using ESM forever? Are JavaScript tools ready for native ESM?
 <br />
 Babel is one of the most used packages on npm, and we have been slowly working to move away from CommonJS. What obstacles have we found? How did we overcome them? What have we learned in the process? How do we ensure a smooth transition for our users?a"
@@ -417,5 +419,5 @@ Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR
 In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
             speakers:
               speaker_1: *FabioBiondi
-  
+
 
