@@ -258,6 +258,28 @@ days:
       #   speakers:
       #     speaker_1: *SaraGerion
       #     speaker_2: *FabioBiondi
+
+      talk_15:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Astro & island architectures: build fast and SEO friendly websites"
+        talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
+  Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
+  In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
+        speakers:
+          speaker_1: *FabioBiondi
+      talk_4:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Building Intelligent Rich Text Editing Interfaces for the Web"
+        talk_description: "Building a good text editing application is hard, but building one for the web platform is bare gnarly. I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing interface using TypeScript, and how you can build your own. Learn from my mistakes, I've made them all!"
+        talk_video_url:
+        speakers:
+          speaker_1: *JaniEväkallio    
       talk_1:
         item_type: "talk"
         track: *track_1
@@ -268,46 +290,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *JecelynYeen
-      talk_2:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Production-ready lambdas with Node.js"
-        talk_description: "A few tips that i learned along the way on how to build production-grade lambdas using AWS: testing, logging, metrics, tracing, infrastructure as code, code-reuse, frameworks and more! Writing Lambdas is quite easy, at the end of the day it is just a function, right?! But writing GOOD production-grade lambdas, well that is an entirely other story. In this talk, I will share some of the tips and tricks that I learned building Lambda functions in Node.js during the last 6 years. We will talk about code organisation and code reuse, testing, logging, metrics, tracing, infrastructure as code and more."
-        talk_video_url:
-        speakers:
-          speaker_1: *LucianoMammino
-      talk_3:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Powering up Micro-frontends at the Edge!"
-        talk_description: "Today's digital landscape has become a fast-paced environment where businesses constantly look for ways to increase efficiency, reduce latency, and improve user experience. Micro-frontends offer a new approach to front-end development, addressing these challenges by breaking down monolithic front-ends applications into smaller, independent, and reusable components, making them easier to deploy, manage, and scale. As part of this talk, we will explore micro-frontends and how to gradually incorporate the architecture into existing codebases using Cloudflare Workers. It can be time-consuming to completely migrate a legacy application using the micro-frontends approach, so we'll explore ways to effectively and efficiently adopt and implement micro-frontends. This talk will give attendees a strong foundation for creating micro-frontends powered by Cloudflare Workers to enable them to enhance their applications leading to better user experience and increased performance."
-        talk_video_url:
-        speakers:
-          speaker_1: *GiftEgwuenu
-      talk_4:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Building Intelligent Rich Text Editing Interfaces for the Web"
-        talk_description: "Building a good text editing application is hard, but building one for the web platform is bare gnarly. I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing interface using TypeScript, and how you can build your own. Learn from my mistakes, I've made them all!"
-        talk_video_url:
-        speakers:
-          speaker_1: *JaniEväkallio
-      talk_5:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Micro-frontends discovery"
-        talk_description: "Micro-Frontends are gaining more popularity year over year. There are some aspects to discover and many others to improve. During this talk we are going to explore one of the main challenges with micro-frontends: the discoverability. Being able to dynamically discover micro-frontends allows us to easily work in multi-environments strategy and reduce the blast radius of new deployments."
-        talk_video_url:
-        speakers:
-          speaker_1: *LucaMezzalira
       talk_6:
         item_type: "talk"
         track: *track_1
@@ -318,16 +300,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *SaraGerion
-      talk_7:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "3D in the web for the rest of us "
-        talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
-        talk_video_url:
-        speakers:
-          speaker_1: *SaraVieira
       talk_8:
         item_type: "talk"
         track: *track_1
@@ -351,6 +323,72 @@ Let’s dive into it!"
         talk_video_url:
         speakers:
           speaker_1: *SoumayaErradi
+      talk_12:
+          item_type: "talk"
+          track: *track_1
+          # start_datetime: 2022-05-19T10:25+02:00
+          # end_datetime: 2022-05-19T11:05+02:00
+          talk_title: "Lyra: Disrupting full-text search industry with JavaScript"
+          talk_description: "How can a JavaScript-based search engine retrieve millions of records in a matter of microseconds? <br/>
+          Why is JavaScript the right language to implement a true isomorphic application to be deployed everywhere, from mobile applications to edge networks? <br />
+          In this talk, we will see how Lyra, a full-text search engine written in JavaScript, is challenging the search industry with an incredible combination of performance and developer experience."
+          speakers:
+            speaker_1: *MicheleRiva
+      talk_5:
+          item_type: "talk"
+          track: *track_1
+          # start_datetime: 2022-05-19T10:25+02:00
+          # end_datetime: 2022-05-19T11:05+02:00
+          talk_title: "Micro-frontends discovery"
+          talk_description: "Micro-Frontends are gaining more popularity year over year. There are some aspects to discover and many others to improve. During this talk we are going to explore one of the main challenges with micro-frontends: the discoverability. Being able to dynamically discover micro-frontends allows us to easily work in multi-environments strategy and reduce the blast radius of new deployments."
+          talk_video_url:
+          speakers:
+            speaker_1: *LucaMezzalira
+      talk_13:
+          item_type: "talk"
+          track: *track_1
+          # start_datetime: 2022-05-19T10:25+02:00
+          # end_datetime: 2022-05-19T11:05+02:00
+          talk_title: "Migrating Babel from CommonJS to ESM"
+          talk_description: "CommonJS has been the go-to module system for Node.js for more than a decade, but the ecosystem is slowly moving to ECMAScript Modules.
+          <br />CommonJS and ESM have different features, and they are not fully compatible with each other: should existing libraries migrate to ESM? Should they keep using ESM forever? Are JavaScript tools ready for native ESM?
+<br />
+Babel is one of the most used packages on npm, and we have been slowly working to move away from CommonJS. What obstacles have we found? How did we overcome them? What have we learned in the process? How do we ensure a smooth transition for our users?a"
+          speakers:
+            speaker_1: *NicoloRibaudo
+      talk_11:
+          item_type: "talk"
+          track: *track_1
+          # start_datetime: 2022-05-19T10:25+02:00
+          # end_datetime: 2022-05-19T11:05+02:00
+          talk_title: "Multimedia file management in web applications: a solution with Typescript, NodeJS and ffmpeg in a serverless application"
+          talk_description: "We, as streaming service users, consume daily movies and media that are easily accessible and can be enjoyed mostly on every device and any browser. <br />
+            However, this is not always the case. There are still many industries that deal with data that initially have extensions not supported by browsers and thus they are not immediately available for visualization and usage. <br />
+            The problem is certainly very common in HealthCare companies that have to deal with data coming from Medical Devices (ultrasound scan, CT scan…), and that come next handled, visualized and used in Web Applications to provide Digital Services or for Artificial Intelligence implementations. These companies face the problem of converting in real time a large amount of data, and they need fast, reliable and scalable solutions.
+<br /> During this talk, I’ll show you how to make large amounts of media files available in browsers and web applications, by creating a service with Typescript, NodeJS, and fluent-ffmpeg, in a serverless application to ensure availability and scalability."
+          talk_video_url:
+          speakers:
+            speaker_1: *MartinaLilla
+      talk_3:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Powering up Micro-frontends at the Edge!"
+        talk_description: "Today's digital landscape has become a fast-paced environment where businesses constantly look for ways to increase efficiency, reduce latency, and improve user experience. Micro-frontends offer a new approach to front-end development, addressing these challenges by breaking down monolithic front-ends applications into smaller, independent, and reusable components, making them easier to deploy, manage, and scale. As part of this talk, we will explore micro-frontends and how to gradually incorporate the architecture into existing codebases using Cloudflare Workers. It can be time-consuming to completely migrate a legacy application using the micro-frontends approach, so we'll explore ways to effectively and efficiently adopt and implement micro-frontends. This talk will give attendees a strong foundation for creating micro-frontends powered by Cloudflare Workers to enable them to enhance their applications leading to better user experience and increased performance."
+        talk_video_url:
+        speakers:
+          speaker_1: *GiftEgwuenu
+      talk_2:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Production-ready lambdas with Node.js"
+        talk_description: "A few tips that i learned along the way on how to build production-grade lambdas using AWS: testing, logging, metrics, tracing, infrastructure as code, code-reuse, frameworks and more! Writing Lambdas is quite easy, at the end of the day it is just a function, right?! But writing GOOD production-grade lambdas, well that is an entirely other story. In this talk, I will share some of the tips and tricks that I learned building Lambda functions in Node.js during the last 6 years. We will talk about code organisation and code reuse, testing, logging, metrics, tracing, infrastructure as code and more."
+        talk_video_url:
+        speakers:
+          speaker_1: *LucianoMammino
       talk_10:
         item_type: "talk"
         track: *track_1
@@ -362,43 +400,7 @@ Let’s dive into it!"
 In this talk we’ll take a look at those top issues that plague JavaScript projects around the world, we'll see why they are issues, and finally how to spot and avoid those common errors, issues or anti patterns. By the end of the talk you’ll feel more confident in your codebase and maybe have a few things to fix."
         talk_video_url:
         speakers:
-          speaker_1: *PhilNash
-      talk_11:
-            item_type: "talk"
-            track: *track_1
-            # start_datetime: 2022-05-19T10:25+02:00
-            # end_datetime: 2022-05-19T11:05+02:00
-            talk_title: "Multimedia file management in web applications: a solution with Typescript, NodeJS and ffmpeg in a serverless application"
-            talk_description: "We, as streaming service users, consume daily movies and media that are easily accessible and can be enjoyed mostly on every device and any browser. <br />
-             However, this is not always the case. There are still many industries that deal with data that initially have extensions not supported by browsers and thus they are not immediately available for visualization and usage. <br />
-             The problem is certainly very common in HealthCare companies that have to deal with data coming from Medical Devices (ultrasound scan, CT scan…), and that come next handled, visualized and used in Web Applications to provide Digital Services or for Artificial Intelligence implementations. These companies face the problem of converting in real time a large amount of data, and they need fast, reliable and scalable solutions.
-<br /> During this talk, I’ll show you how to make large amounts of media files available in browsers and web applications, by creating a service with Typescript, NodeJS, and fluent-ffmpeg, in a serverless application to ensure availability and scalability."
-            talk_video_url:
-            speakers:
-              speaker_1: *MartinaLilla
-      talk_12:
-            item_type: "talk"
-            track: *track_1
-            # start_datetime: 2022-05-19T10:25+02:00
-            # end_datetime: 2022-05-19T11:05+02:00
-            talk_title: "Lyra: Disrupting full-text search industry with JavaScript"
-            talk_description: "How can a JavaScript-based search engine retrieve millions of records in a matter of microseconds? <br/>
-            Why is JavaScript the right language to implement a true isomorphic application to be deployed everywhere, from mobile applications to edge networks? <br />
-            In this talk, we will see how Lyra, a full-text search engine written in JavaScript, is challenging the search industry with an incredible combination of performance and developer experience."
-            speakers:
-              speaker_1: *MicheleRiva
-      talk_13:
-            item_type: "talk"
-            track: *track_1
-            # start_datetime: 2022-05-19T10:25+02:00
-            # end_datetime: 2022-05-19T11:05+02:00
-            talk_title: "Migrating Babel from CommonJS to ESM"
-            talk_description: "CommonJS has been the go-to module system for Node.js for more than a decade, but the ecosystem is slowly moving to ECMAScript Modules.
-            <br />CommonJS and ESM have different features, and they are not fully compatible with each other: should existing libraries migrate to ESM? Should they keep using ESM forever? Are JavaScript tools ready for native ESM?
-<br />
-Babel is one of the most used packages on npm, and we have been slowly working to move away from CommonJS. What obstacles have we found? How did we overcome them? What have we learned in the process? How do we ensure a smooth transition for our users?a"
-            speakers:
-              speaker_1: *NicoloRibaudo
+          speaker_1: *PhilNash  
       talk_14:
             item_type: "talk"
             track: *track_1
@@ -408,16 +410,15 @@ Babel is one of the most used packages on npm, and we have been slowly working t
             talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
             speakers:
               speaker_1: *TejasKumar
-      talk_15:
-            item_type: "talk"
-            track: *track_1
-            # start_datetime: 2022-05-19T10:25+02:00
-            # end_datetime: 2022-05-19T11:05+02:00
-            talk_title: "Astro & island architectures: build fast and SEO friendly websites"
-            talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
-Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
-In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
-            speakers:
-              speaker_1: *FabioBiondi
+      talk_7:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "3D in the web for the rest of us "
+        talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
+        talk_video_url:
+        speakers:
+          speaker_1: *SaraVieira
 
 
