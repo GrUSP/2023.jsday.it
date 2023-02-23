@@ -182,18 +182,17 @@ speakers:
   speaker_1: *FabioBiondi
   speaker_2: *GiftEgwuenu
   speaker_3: *JaniEväkallio
-  speaker_4: *SaraGerion
+  speaker_9: *JecelynYeen
   speaker_5: *LucianoMammino
   speaker_6: *LucaMezzalira
-  speaker_7: *SunilPai
-  speaker_8: *SaraVieira
-  speaker_9: *JecelynYeen
-
-  speaker_11: *PhilNash
   speaker_12: *MartinaLilla
   speaker_13: *MicheleRiva
-  speaker_14: *SoumayaErradi
   speaker_15: *NicoloRibaudo
+  speaker_11: *PhilNash
+  speaker_4: *SaraGerion
+  speaker_8: *SaraVieira
+  speaker_7: *SunilPai
+  speaker_14: *SoumayaErradi
   speaker_16: *TejasKumar
   speaker_17: *JayneMast
 
