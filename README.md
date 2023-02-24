@@ -1186,7 +1186,7 @@ La pagina viene comunque generata, ma non è raggiungibile da menu, e le tabelle
 ```
 generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
-schedule_under_construction_description: "We are still defining the schedule. Please be patient"
+schedule_under_construction_description: "We are still defining the schedule. Please be come back soon!"
 ```
 
 Degli speaker abbiamo già parlato nel capitolo precedente. Qui ci concentriamo su come viene costruita la schedule, partendo dalle `track`:
