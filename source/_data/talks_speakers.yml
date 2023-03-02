@@ -153,7 +153,7 @@ speaker_14: &MicheleRiva
   speaker_in_speaker_lists: true
   speaker_name: "Michele Riva"
   speaker_pic_filename: Michele_Riva.png
-  speaker_role: "Staff Engineer @ NearForm"
+  speaker_role: "Co-Founder & CTO @ OramaSearch"
   speaker_bio: "I'm a passionate and experienced software engineer, Google GDE, and Microsoft MVP working full-time on open-source software. I currently work as a Staff Engineer at NearForm while traveling the world to speak at international conferences.<br /> I am also developing Lyra, the next-generation full-text search engine written entirely in TypeScript.
 I am always up for speaking about software, philosophy, photography... or literally whatever comes to your mind!"
   speaker_linkedin_url: "https://linkedin.com/in/MicheleRiva95"
