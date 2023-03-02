@@ -175,7 +175,15 @@ speaker_16: &TejasKumar
   speaker_pic_filename: Tejas_Kumar.png
   speaker_role: "YouTuber"
   speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops. <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work."
-
+speaker_17: &TamasPiros
+  speaker_in_speaker_lists: true
+  speaker_name: "Tamas Piros"
+  speaker_pic_filename: Tamas_Piros.png
+  speaker_role: "Director @ Developer Advocacy"
+  speaker_bio: "Tamas is a Google Developer Expert in Web Technologies and a seasoned Developer Evangelist. He is a passionate advocate for modern web technologies, helping people understand and unlock the latest & greatest features of web development."
+  speaker_linkedin_url: "https://linkedin.com/in/tpiros"
+  speaker_twitter_url: "https://twitter.com/tpiros"
+  speaker_github_url: "https://github.com/tpiros"
 
 
 speakers:
@@ -193,8 +201,9 @@ speakers:
   speaker_8: *SaraVieira
   speaker_7: *SunilPai
   speaker_14: *SoumayaErradi
+  speaker_17: *TamasPiros
   speaker_16: *TejasKumar
-  speaker_17: *JayneMast
+  speaker_18: *JayneMast
 
 
 tracks:
@@ -414,10 +423,22 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "3D in the web for the rest of us "
+        talk_title: "3D in the web for the rest of us"
         talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
         talk_video_url:
         speakers:
           speaker_1: *SaraVieira
+      talk_16:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "A picture is worth a thousand…kilobytes."
+        talk_description: "A picture is in fact worth a thousand words, but it should not be worth a thousand kilobytes. 
+        <br />In this talk we will take a look at tips and tricks that will enable you to deliver image heavy websites in a performant way. <br />We will discuss the pros and cons of “next-gen” image formats, the various available loading methods and techniques and their effects on the Largest Contentful Paint and Cumulative Layout Shift Core Web Vital metrics. 
+        <br />By the end of the talk you will be equipped with the right knowledge to deliver production sites with images that perform well to maximise user retention."
+        talk_video_url:
+        speakers:
+          speaker_1: *TamasPiros
 
 
