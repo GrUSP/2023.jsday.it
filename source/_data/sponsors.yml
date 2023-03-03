@@ -31,11 +31,11 @@ silver:
   sponsor2:
     name: "Cloudflare"
     logo_filename: "cloudflare.svg"
-    site_url: ""
+    site_url: "https://www.cloudflare.com/developer-platform-hub/"
   sponsor3:
     name: "Cloudinary"
     logo_filename: "cloudinary.svg"
-    site_url: ""
+    site_url: "https://cloudinary.com/developers"
   sponsor4:
     name: "Daruma"
     logo_filename: "daruma.svg"
