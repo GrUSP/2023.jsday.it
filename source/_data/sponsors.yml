@@ -53,10 +53,14 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
   sponsor8:
+    name: "Sonar"
+    logo_filename: "sonar.svg"
+    site_url: "https://www.sonarsource.com/"
+  sponsor9:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor9:
+  sponsor10:
     name: "weroad"
     logo_filename: "weroad.svg"
     site_url: "https://career.weroad.travel/"
