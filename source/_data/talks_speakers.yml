@@ -114,6 +114,7 @@ speaker_10: &JayneMast
   speaker_linkedin_url: "https://nl.linkedin.com/in/jayne-mast"
   speaker_twitter_url: "https://twitter.com/jayne_mast/"
   is_mc: true
+
 speaker_11: &SoumayaErradi
   speaker_in_speaker_lists: true
   speaker_name: "Soumaya Erradi"
@@ -126,6 +127,7 @@ I'm also holding coding courses and meetups to deepen technical and business iss
   speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi/"
   speaker_twitter_url: "https://twitter.com/sumy92"
   speaker_github_url: "https://github.com/soumayaerradi"
+
 speaker_12: &PhilNash
   speaker_in_speaker_lists: true
   speaker_name: "Phil Nash"
@@ -139,6 +141,7 @@ Away from the keyboard, Phil listens to ska punk, hangs out with his miniature d
   speaker_twitter_url: "https://twitter.com/philnash"
   speaker_github_url: "https://github.com/philnash"
   speaker_general_url: "https://philna.sh"
+
 speaker_13: &MartinaLilla
   speaker_in_speaker_lists: true
   speaker_name: "Martina Lilla"
@@ -149,6 +152,7 @@ Her work focuses on development and maintenance of the web application (FE - Ang
 She is passionate about technology and constantly curious to learn new things and apply them by designing new digital solutions creatively and innovatively, collaborating effectively with the end user."
   speaker_linkedin_url: "https://www.linkedin.com/in/martina-lilla/"
   speaker_github_url: "https://github.com/martinalilla"
+
 speaker_14: &MicheleRiva
   speaker_in_speaker_lists: true
   speaker_name: "Michele Riva"
@@ -159,6 +163,7 @@ I am always up for speaking about software, philosophy, photography... or litera
   speaker_linkedin_url: "https://linkedin.com/in/MicheleRiva95"
   speaker_twitter_url: "https://twitter.com/MicheleRivaCode"
   speaker_github_url: "https://github.com/MicheleRiva"
+
 speaker_15: &NicoloRibaudo
   speaker_in_speaker_lists: true
   speaker_name: "Nicolò Ribaudo"
@@ -169,12 +174,15 @@ speaker_15: &NicoloRibaudo
   When offline, I’m a math student in Turin, Italy."
   speaker_twitter_url: "https://twitter.com/NicoloRibaudo"
   speaker_github_url: "https://github.com/nicolo-ribaudo"
+
+
 speaker_16: &TejasKumar
   speaker_in_speaker_lists: true
   speaker_name: "Tejas Kumar"
   speaker_pic_filename: Tejas_Kumar.png
   speaker_role: "YouTuber"
   speaker_bio: "Tejas Kumar is an international keynote speaker with an engineering background spanning 22 years, from design to frontend to backend to devops. <br /> Today, Tejas shares talks at large with developer communities worldwide, equipping them to do their best work."
+
 speaker_17: &TamasPiros
   speaker_in_speaker_lists: true
   speaker_name: "Tamas Piros"
@@ -185,12 +193,35 @@ speaker_17: &TamasPiros
   speaker_twitter_url: "https://twitter.com/tpiros"
   speaker_github_url: "https://github.com/tpiros"
 
+speaker_18: &LizzieSiegle
+  speaker_in_speaker_lists: true
+  speaker_name: "Lizzie Siegle"
+  speaker_pic_filename: Lizzie_Siegle.png
+  speaker_role: "Developer Evangelist @ Twilio"
+  speaker_bio: "Lizzie serves developers in the Bay Area and beyond on Twilio's developer evangelism team and holds a Bachelor's degree in Computer Science from Bryn Mawr. She likes Swift, JavaScript, and working with AI, but has been seen writing Python and Haskell as well. When not organizing or attending hackathons and meetups, she enjoys tennis, ping pong, and all things Disney."
+  speaker_linkedin_url: "https://linkedin.com/in/elsiegle"
+  speaker_twitter_url: "https://twitter.com/lizziepika"
+  speaker_github_url: "https://github.com/elizabethsiegle"
+
+speaker_19: &DanielArthurGallagher
+  speaker_in_speaker_lists: true
+  speaker_name: "Daniel Arthur Gallagher"
+  speaker_pic_filename: Daniel_Arthur_Gallagher.png
+  speaker_role: "Senior Software Engineer @ Subito.it"
+  speaker_bio: "I'm an immigrant to Milan in 2019, bilingual since 2020 and a programmer since 2014."
+  speaker_linkedin_url: "https://www.linkedin.com/in/danielarthurgallagher/"
+  speaker_twitter_url: "https://twitter.com/lizziepika"
+  speaker_github_url: "https://github.com/DanArthurGallagher"
+
+
 
 speakers:
+  speaker_19: *DanielArthurGallagher
   speaker_1: *FabioBiondi
   speaker_2: *GiftEgwuenu
   speaker_3: *JaniEväkallio
   speaker_9: *JecelynYeen
+  speaker_18: *LizzieSiegle
   speaker_5: *LucianoMammino
   speaker_6: *LucaMezzalira
   speaker_12: *MartinaLilla
@@ -203,7 +234,7 @@ speakers:
   speaker_14: *SoumayaErradi
   speaker_17: *TamasPiros
   speaker_16: *TejasKumar
-  speaker_18: *JayneMast
+  speaker_10: *JayneMast
 
 
 tracks:
@@ -267,6 +298,18 @@ days:
       #     speaker_1: *SaraGerion
       #     speaker_2: *FabioBiondi
 
+      talk_18:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "It's still getting better: new(ish) JavaScript you can use today"
+        talk_description: "JS is a language in constant evolution and has accelerated for more than 10 years. <br />Half of the time we're writing code before it's standardised, and plenty of articles get written about things we can do that maybe we just don't get to. Maybe there are some dots that aren't joined up.
+With plenty of enthusiasm and a lot of interest in getting more out of the standards (and letting StdLib engineers write the code I want to use), I will present some newer syntax and standard APIs. <br />I'll present them not just as ideas but showing where, when and how you can use them in order to cut down on repetitive or custom code that's used in every project and get the runtime to do more for you: and even if it's not all as popular as \"const\" was, it's all available today!
+<br />Formatting numbers, logical guarantees, saying \"yesterday\" in the right way in a foreign language: it's all built in and right there under the surface."
+        speakers:
+          speaker_1: *DanielArthurGallagher   
+
       talk_15:
         item_type: "talk"
         track: *track_1
@@ -311,6 +354,16 @@ days:
         speakers:
           speaker_1: *JecelynYeen
 
+      talk_17:
+            item_type: "talk"
+            track: *track_1
+            # start_datetime: 2022-05-19T10:25+02:00
+            # end_datetime: 2022-05-19T11:05+02:00
+            talk_title: "Screw the Browser! Build ChatGPT via SMS"
+            talk_description: "What crazy questions have you asked ChatGPT? Did asking it in a web browser annoy you? Never fear! This talk will go over how to build your own ChatGPT powered by OpenAI's API via Twilio SMS. We will dive into OpenAI's API and its many models, methods, machine learning concepts, use cases, and more."
+            speakers:
+              speaker_1: *LizzieSiegle
+      
       talk_2:
         item_type: "talk"
         track: *track_1
@@ -442,10 +495,7 @@ Let’s dive into it!"
         <br />By the end of the talk you will be equipped with the right knowledge to deliver production sites with images that perform well to maximise user retention."
         talk_video_url:
         speakers:
-          speaker_1: *TamasPiros
-
-      
-      
+          speaker_1: *TamasPiros   
      
       talk_14:
             item_type: "talk"
@@ -456,6 +506,5 @@ Let’s dive into it!"
             talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
             speakers:
               speaker_1: *TejasKumar
-      
       
 
