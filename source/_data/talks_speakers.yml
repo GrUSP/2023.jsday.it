@@ -203,8 +203,20 @@ speaker_18: &LizzieSiegle
   speaker_twitter_url: "https://twitter.com/lizziepika"
   speaker_github_url: "https://github.com/elizabethsiegle"
 
+speaker_19: &DanielArthurGallagher
+  speaker_in_speaker_lists: true
+  speaker_name: "Daniel Arthur Gallagher"
+  speaker_pic_filename: Daniel_Arthur_Gallagher.png
+  speaker_role: "Senior Software Engineer @ Subito.it"
+  speaker_bio: "I'm an immigrant to Milan in 2019, bilingual since 2020 and a programmer since 2014."
+  speaker_linkedin_url: "https://www.linkedin.com/in/danielarthurgallagher/"
+  speaker_twitter_url: "https://twitter.com/lizziepika"
+  speaker_github_url: "https://github.com/DanArthurGallagher"
+
+
 
 speakers:
+  speaker_19: *DanielArthurGallagher
   speaker_1: *FabioBiondi
   speaker_2: *GiftEgwuenu
   speaker_3: *JaniEväkallio
@@ -285,6 +297,18 @@ days:
       #   speakers:
       #     speaker_1: *SaraGerion
       #     speaker_2: *FabioBiondi
+
+      talk_18:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "It's still getting better: new(ish) JavaScript you can use today"
+        talk_description: "JS is a language in constant evolution and has accelerated for more than 10 years. <br />Half of the time we're writing code before it's standardised, and plenty of articles get written about things we can do that maybe we just don't get to. Maybe there are some dots that aren't joined up.
+With plenty of enthusiasm and a lot of interest in getting more out of the standards (and letting StdLib engineers write the code I want to use), I will present some newer syntax and standard APIs. <br />I'll present them not just as ideas but showing where, when and how you can use them in order to cut down on repetitive or custom code that's used in every project and get the runtime to do more for you: and even if it's not all as popular as \"const\" was, it's all available today!
+<br />Formatting numbers, logical guarantees, saying \"yesterday\" in the right way in a foreign language: it's all built in and right there under the surface."
+        speakers:
+          speaker_1: *DanielArthurGallagher   
 
       talk_15:
         item_type: "talk"
