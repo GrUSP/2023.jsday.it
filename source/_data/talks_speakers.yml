@@ -84,21 +84,11 @@ speaker_7: &JaniEväkallio
   speaker_twitter_url: "https://twitter.com/jevakallio"
   is_mc: false
 
-speaker_8: &SaraVieira
-  speaker_in_speaker_lists: true
-  speaker_name: "Sara Vieira"
-  speaker_pic_filename: Sara_Vieira.png
-  speaker_role: "Founding Engineer @ Axo"
-  speaker_bio: ""
-  speaker_github_url: "https://github.com/SaraVieira"
-  speaker_general_url: "https://tech.lgbt/@nikkitaFTW"
-  speaker_twitter_url: "https://twitter.com/NikkitaFTW"
-
 speaker_9: &SunilPai
   speaker_in_speaker_lists: true
   speaker_name: "Sunil Pai"
   speaker_pic_filename: Sunil_Pai.png
-  speaker_role: "Chief, Cool Computer Club"
+  speaker_role: "Chief @ Cool Computer Club"
   speaker_bio: "Sunil runs Cool Computer Club, a product and services company for people building ambitious software. Previously, he built the developer CLI for Cloudflare Workers, worked on the React team in Facebook, built out the Javascript stack at Myntra, and a whole list of other product and infrastructure teams in his career.
   He can be found on twitter as @threepointone, or annoying his neighbours in London playing his Les Paul a little too loud."
   speaker_github_url: "https://github.com/threepointone"
@@ -187,7 +177,7 @@ speaker_17: &TamasPiros
   speaker_in_speaker_lists: true
   speaker_name: "Tamas Piros"
   speaker_pic_filename: Tamas_Piros.png
-  speaker_role: "Director @ Developer Advocacy"
+  speaker_role: "Director of Developer Advocacy @ Cloudinary"
   speaker_bio: "Tamas is a Google Developer Expert in Web Technologies and a seasoned Developer Evangelist. He is a passionate advocate for modern web technologies, helping people understand and unlock the latest & greatest features of web development."
   speaker_linkedin_url: "https://linkedin.com/in/tpiros"
   speaker_twitter_url: "https://twitter.com/tpiros"
@@ -229,7 +219,6 @@ speakers:
   speaker_15: *NicoloRibaudo
   speaker_11: *PhilNash
   speaker_4: *SaraGerion
-  speaker_8: *SaraVieira
   speaker_7: *SunilPai
   speaker_14: *SoumayaErradi
   speaker_17: *TamasPiros
@@ -308,7 +297,7 @@ days:
 With plenty of enthusiasm and a lot of interest in getting more out of the standards (and letting StdLib engineers write the code I want to use), I will present some newer syntax and standard APIs. <br />I'll present them not just as ideas but showing where, when and how you can use them in order to cut down on repetitive or custom code that's used in every project and get the runtime to do more for you: and even if it's not all as popular as \"const\" was, it's all available today!
 <br />Formatting numbers, logical guarantees, saying \"yesterday\" in the right way in a foreign language: it's all built in and right there under the surface."
         speakers:
-          speaker_1: *DanielArthurGallagher   
+          speaker_1: *DanielArthurGallagher
 
       talk_15:
         item_type: "talk"
@@ -331,7 +320,7 @@ With plenty of enthusiasm and a lot of interest in getting more out of the stand
         talk_video_url:
         speakers:
           speaker_1: *GiftEgwuenu
-  
+
       talk_4:
         item_type: "talk"
         track: *track_1
@@ -341,7 +330,7 @@ With plenty of enthusiasm and a lot of interest in getting more out of the stand
         talk_description: "Building a good text editing application is hard, but building one for the web platform is bare gnarly. I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing interface using TypeScript, and how you can build your own. Learn from my mistakes, I've made them all!"
         talk_video_url:
         speakers:
-          speaker_1: *JaniEväkallio   
+          speaker_1: *JaniEväkallio
 
       talk_1:
         item_type: "talk"
@@ -363,7 +352,7 @@ With plenty of enthusiasm and a lot of interest in getting more out of the stand
             talk_description: "What crazy questions have you asked ChatGPT? Did asking it in a web browser annoy you? Never fear! This talk will go over how to build your own ChatGPT powered by OpenAI's API via Twilio SMS. We will dive into OpenAI's API and its many models, methods, machine learning concepts, use cases, and more."
             speakers:
               speaker_1: *LizzieSiegle
-      
+
       talk_2:
         item_type: "talk"
         track: *track_1
@@ -374,7 +363,7 @@ With plenty of enthusiasm and a lot of interest in getting more out of the stand
         talk_video_url:
         speakers:
           speaker_1: *LucianoMammino
-          
+
       talk_5:
         item_type: "talk"
         track: *track_1
@@ -398,7 +387,7 @@ With plenty of enthusiasm and a lot of interest in getting more out of the stand
           talk_video_url:
           speakers:
             speaker_1: *MartinaLilla
-     
+
       talk_12:
           item_type: "talk"
           track: *track_1
@@ -435,7 +424,7 @@ Babel is one of the most used packages on npm, and we have been slowly working t
 In this talk we’ll take a look at those top issues that plague JavaScript projects around the world, we'll see why they are issues, and finally how to spot and avoid those common errors, issues or anti patterns. By the end of the talk you’ll feel more confident in your codebase and maybe have a few things to fix."
         talk_video_url:
         speakers:
-          speaker_1: *PhilNash  
+          speaker_1: *PhilNash
 
       talk_6:
         item_type: "talk"
@@ -448,17 +437,6 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         speakers:
           speaker_1: *SaraGerion
 
-      talk_7:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "3D in the web for the rest of us"
-        talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
-        talk_video_url:
-        speakers:
-          speaker_1: *SaraVieira
-
       talk_8:
         item_type: "talk"
         track: *track_1
@@ -469,7 +447,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         talk_video_url:
         speakers:
           speaker_1: *SunilPai
-          
+
       talk_9:
         item_type: "talk"
         track: *track_1
@@ -483,20 +461,20 @@ Let’s dive into it!"
         talk_video_url:
         speakers:
           speaker_1: *SoumayaErradi
-      
+
       talk_16:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "A picture is worth a thousand…kilobytes."
-        talk_description: "A picture is in fact worth a thousand words, but it should not be worth a thousand kilobytes. 
-        <br />In this talk we will take a look at tips and tricks that will enable you to deliver image heavy websites in a performant way. <br />We will discuss the pros and cons of “next-gen” image formats, the various available loading methods and techniques and their effects on the Largest Contentful Paint and Cumulative Layout Shift Core Web Vital metrics. 
+        talk_description: "A picture is in fact worth a thousand words, but it should not be worth a thousand kilobytes.
+        <br />In this talk we will take a look at tips and tricks that will enable you to deliver image heavy websites in a performant way. <br />We will discuss the pros and cons of “next-gen” image formats, the various available loading methods and techniques and their effects on the Largest Contentful Paint and Cumulative Layout Shift Core Web Vital metrics.
         <br />By the end of the talk you will be equipped with the right knowledge to deliver production sites with images that perform well to maximise user retention."
         talk_video_url:
         speakers:
-          speaker_1: *TamasPiros   
-     
+          speaker_1: *TamasPiros
+
       talk_14:
             item_type: "talk"
             track: *track_1
@@ -506,5 +484,5 @@ Let’s dive into it!"
             talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
             speakers:
               speaker_1: *TejasKumar
-      
+
 
