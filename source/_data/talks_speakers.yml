@@ -84,15 +84,15 @@ speaker_7: &JaniEväkallio
   speaker_twitter_url: "https://twitter.com/jevakallio"
   is_mc: false
 
-speaker_8: &SaraVieira
-  speaker_in_speaker_lists: true
-  speaker_name: "Sara Vieira"
-  speaker_pic_filename: Sara_Vieira.png
-  speaker_role: "Founding Engineer @ Axo"
-  speaker_bio: ""
-  speaker_github_url: "https://github.com/SaraVieira"
-  speaker_general_url: "https://tech.lgbt/@nikkitaFTW"
-  speaker_twitter_url: "https://twitter.com/NikkitaFTW"
+# speaker_8: &SaraVieira
+#   speaker_in_speaker_lists: true
+#   speaker_name: "Sara Vieira"
+#   speaker_pic_filename: Sara_Vieira.png
+#   speaker_role: "Founding Engineer @ Axo"
+#   speaker_bio: ""
+#   speaker_github_url: "https://github.com/SaraVieira"
+#   speaker_general_url: "https://tech.lgbt/@nikkitaFTW"
+#   speaker_twitter_url: "https://twitter.com/NikkitaFTW"
 
 speaker_9: &SunilPai
   speaker_in_speaker_lists: true
@@ -229,7 +229,7 @@ speakers:
   speaker_15: *NicoloRibaudo
   speaker_11: *PhilNash
   speaker_4: *SaraGerion
-  speaker_8: *SaraVieira
+  # speaker_8: *SaraVieira
   speaker_7: *SunilPai
   speaker_14: *SoumayaErradi
   speaker_17: *TamasPiros
@@ -448,16 +448,16 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         speakers:
           speaker_1: *SaraGerion
 
-      talk_7:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "3D in the web for the rest of us"
-        talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
-        talk_video_url:
-        speakers:
-          speaker_1: *SaraVieira
+      # talk_7:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: "3D in the web for the rest of us"
+      #   talk_description: "3D in the web sounds like something you would only do if you really want to win a website of the year award but I am here to tell you it's actually not as hard as it seems and maybe it can be fun? Let's take a journey and bring 3D to the web"
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *SaraVieira
 
       talk_8:
         item_type: "talk"
