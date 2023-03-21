@@ -439,8 +439,8 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         track: *track_1
         start_datetime: 2023-04-14T10:00+02:00
         end_datetime: 2023-04-14T10:40+02:00
-        talk_title: "Building Intelligent Rich Text Editing Interfaces for the Web"
-        talk_description: "Building a good text editing application is hard, but building one for the web platform is bare gnarly. I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing interface using TypeScript, and how you can build your own. Learn from my mistakes, I've made them all!"
+        talk_title: "Building AI-enhanced User Interfaces for the Web"
+        talk_description: "ChatGPT is cool, but baking AI features directly into your application can supercharge your app's (and your user's!) true potential. <br /><br/>I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing application using TypeScript, and what you need to know to build one yourself."
         talk_video_url:
         speakers:
           speaker_1: *JaniEväkallio
