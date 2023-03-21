@@ -1,9 +1,9 @@
 sponsors_block_title: "Thanks to our sponsors"
-# main:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+main:
+  sponsor1:
+    name: "Subito"
+    logo_filename: "subito.svg"
+    site_url: "https://info.subito.it/lavora-con-noi.htm"
 diamond:
   sponsor1:
     name: "CentralReach"
@@ -49,22 +49,26 @@ silver:
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
   sponsor7:
+    name: "fido"
+    logo_filename: "fido.svg"
+    site_url: "https://www.fido.id/"
+  sponsor8:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
-  sponsor8:
+  sponsor9:
     name: "Orama"
     logo_filename: "orama .svg"
     site_url: "https://www.oramasearch.com/"
-  sponsor9:
+  sponsor10:
     name: "Sonar"
     logo_filename: "sonar.svg"
     site_url: "https://www.sonarsource.com/"
-  sponsor10:
+  sponsor11:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor11:
+  sponsor12:
     name: "weroad"
     logo_filename: "weroad.svg"
     site_url: "https://career.weroad.travel/"
