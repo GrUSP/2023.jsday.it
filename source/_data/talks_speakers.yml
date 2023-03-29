@@ -422,17 +422,20 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         talk_title: "Opening by GrUSP"
       
       # 2 talks
-      talk_15:
+      
+      talk_9:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-04-14T09:30+02:00
-        end_datetime: 2023-04-14T10:00+02:00
-        talk_title: "Astro & island architectures: build fast and SEO friendly websites"
-        talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
-  Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
-  In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
+        end_datetime: 2023-04-14T10:10+02:00
+        talk_title: "Implementing web3 via APIs is still decentralized?"
+        talk_description: "When we talk about decentralized applications we mean an application where control and decision-making is transferred to a distributed network.
+Sometimes we find this formula: a user that interacts with the dApp frontend — either web or mobile — which then interacts with the backend APIs. The backend, then, on request interacts with the smart contract(s) or blockchain through public nodes.
+Is this the right way to build a decentralized application or we are missing something?
+Let’s dive into it!"
+        talk_video_url:
         speakers:
-          speaker_1: *FabioBiondi
+          speaker_1: *SoumayaErradi
 
       talk_4:
         item_type: "talk"
@@ -455,30 +458,30 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
 
       # 2 talks
 
-      talk_9:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-04-14T11:10+02:00
-        end_datetime: 2023-04-14T11:50+02:00
-        talk_title: "Implementing web3 via APIs is still decentralized?"
-        talk_description: "When we talk about decentralized applications we mean an application where control and decision-making is transferred to a distributed network.
-Sometimes we find this formula: a user that interacts with the dApp frontend — either web or mobile — which then interacts with the backend APIs. The backend, then, on request interacts with the smart contract(s) or blockchain through public nodes.
-Is this the right way to build a decentralized application or we are missing something?
-Let’s dive into it!"
-        talk_video_url:
-        speakers:
-          speaker_1: *SoumayaErradi
+      
 
       talk_8:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-04-14T11:50+02:00
-        end_datetime: 2023-04-14T12:30+02:00
+        start_datetime: 2023-04-14T11:20+02:00
+        end_datetime: 2023-04-14T12:00+02:00
         talk_title: "Everything's better with friends"
         talk_description: "Software is meant to be alive, interactive, and experience shared best with your friends and colleagues. Building applications like these have always been difficult for mere mortals - they're expensive, hard to build and maintain, and never quite right ...until now. Over the last few years, changes in the ecosystem and platform capabilities have made the building blocks for building real-time collaborative applications much more accessible and within the reach of developers like you and me. I'd like to show you some of the work I've been doing in this area, as well as participate in a demo built on this technology. "
         talk_video_url:
         speakers:
           speaker_1: *SunilPai
+
+      talk_15:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-04-14T12:00+02:00
+        end_datetime: 2023-04-14T12:40+02:00
+        talk_title: "Astro & island architectures: build fast and SEO friendly websites"
+        talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
+  Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
+  In this session I'll describe how Astro work and we will analyze the necessary steps to install, configure and create landing pages and blogs by using SSG, SSR, markdown and the island architecture."
+        speakers:
+          speaker_1: *FabioBiondi
 
       # Lunch Break
       lunch-breack:
