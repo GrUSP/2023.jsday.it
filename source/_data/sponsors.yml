@@ -69,6 +69,10 @@ silver:
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
   sponsor12:
+    name: "Twilio"
+    logo_filename: "twilio.svg"
+    site_url: "https://www.twilio.com/"
+  sponsor13:
     name: "weroad"
     logo_filename: "weroad.svg"
     site_url: "https://career.weroad.travel/"
