@@ -475,7 +475,7 @@ Let’s dive into it!"
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-04-14T12:00+02:00
-        end_datetime: 2023-04-14T12:40+02:00
+        end_datetime: 2023-04-14T12:30+02:00
         talk_title: "Astro & island architectures: build fast and SEO friendly websites"
         talk_description: "Astro, a latest generation JavaScript framework, has recently released version 2.0, and since the first version it has been a huge success thanks to its simplicity, performance and the island architecture, a technique that use partial hydration to use several UI frameworks and libraries in the same view, such as React, Vue, Svelte and many others. <br />
   Astro uses pre-rendering techniques such as SSG (Static Site Generation) and SSR (Server Side Rendering) and has the main objective of speeding up the display of content: for this reason it is the ideal tool for creating landing pages, blogs and Web pages that require high search engine scores and high performance.<br />
