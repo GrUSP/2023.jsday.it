@@ -251,7 +251,7 @@ days:
         start_datetime: 2023-04-13T09:00+02:00
         end_datetime: 2023-04-13T09:30+02:00
         talk_title: "Registration, collect your badge and swags!"
-      
+
       # opening
       opening:
         item_type: "service"
@@ -269,7 +269,7 @@ days:
         talk_description: "This talk explores the current state of frontend frameworks including Qwik and SolidJS, and examines their parallels between React. Leaving this talk, developers should have a more clear view of the strengths, weaknesses, and tradeoffs of these."
         speakers:
           speaker_1: *TejasKumar
-          
+
       talk_3:
         item_type: "talk"
         track: *track_1
@@ -280,7 +280,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *GiftEgwuenu
-      
+
       # coffee break
       coffee-morning:
         item_type: "service"
@@ -329,7 +329,7 @@ With plenty of enthusiasm and a lot of interest in getting more out of the stand
         end_datetime: 2023-04-13T14:20+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      
+
       # Lightning talks
       lightning:
         item_type: "service"
@@ -351,7 +351,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         talk_video_url:
         speakers:
           speaker_1: *PhilNash
-       
+
       talk_2:
         item_type: "talk"
         track: *track_1
@@ -371,7 +371,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         talk_title: "Coffee break"
         service_icon: "coffee"
 
-      # 2 talks 
+      # 2 talks
       talk_6:
         item_type: "talk"
         track: *track_1
@@ -382,7 +382,7 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         talk_video_url:
         speakers:
           speaker_1: *SaraGerion
-      
+
       talk_16:
         item_type: "talk"
         track: *track_1
@@ -396,13 +396,13 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         speakers:
           speaker_1: *TamasPiros
 
-      # closing day 1  
+      # closing day 1
       closing:
         item_type: "service"
         start_datetime: 2023-04-13T17:50+02:00
         end_datetime: 2023-04-13T18:00+02:00
         talk_title: "See you tomorrow!"
-    
+
   day_2:
     date: 2023-04-14T09:30+02:00
     title: "Day 2"
@@ -420,9 +420,9 @@ In this talk we’ll take a look at those top issues that plague JavaScript proj
         start_datetime: 2023-04-14T09:15+02:00
         end_datetime: 2023-04-14T09:30+02:00
         talk_title: "Opening by GrUSP"
-      
+
       # 2 talks
-      
+
       talk_9:
         item_type: "talk"
         track: *track_1
@@ -440,7 +440,7 @@ Let’s dive into it!"
       talk_4:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-04-14T10:00+02:00
+        start_datetime: 2023-04-14T10:10+02:00
         end_datetime: 2023-04-14T10:40+02:00
         talk_title: "Building AI-enhanced User Interfaces for the Web"
         talk_description: "ChatGPT is cool, but baking AI features directly into your application can supercharge your app's (and your user's!) true potential. <br /><br/>I want to share what I've learned in the last year, building an ambitious, real-time collaborative, high-performance, AI-assisted text editing application using TypeScript, and what you need to know to build one yourself."
@@ -458,7 +458,7 @@ Let’s dive into it!"
 
       # 2 talks
 
-      
+
 
       talk_8:
         item_type: "talk"
@@ -490,7 +490,7 @@ Let’s dive into it!"
         end_datetime: 2023-04-14T13:50+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-       
+
       # Lightning talks
       lightning:
         item_type: "service"
@@ -498,7 +498,7 @@ Let’s dive into it!"
         end_datetime: 2023-04-13T14:10+02:00
         talk_title: "Lightning talks"
         # service_icon: "cutlery"
-      
+
       talk_11:
         item_type: "talk"
         track: *track_1
@@ -531,7 +531,7 @@ Let’s dive into it!"
         end_datetime: 2023-04-14T16:00+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-      
+
       # 2 talks
 
       talk_1:
@@ -558,7 +558,7 @@ Babel is one of the most used packages on npm, and we have been slowly working t
         speakers:
           speaker_1: *NicoloRibaudo
 
-      # closing day 1  
+      # closing day 1
       closing:
         item_type: "service"
         start_datetime: 2023-04-14T17:20+02:00
