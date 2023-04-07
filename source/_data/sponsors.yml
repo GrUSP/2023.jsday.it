@@ -11,6 +11,10 @@ diamond:
     site_url: "https://centralreach.com/"
 platinum:
   sponsor1:
+    name: "Musixmatch"
+    logo_filename: "musixmatch.svg"
+    site_url: "https://www.musixmatch.com/"
+  sponsor2:
     name: "Storyblok"
     logo_filename: "storyblok.svg"
     site_url: "https://www.storyblok.com/"
